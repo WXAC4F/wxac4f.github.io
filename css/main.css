@@ -2796,29 +2796,28 @@ ul.breadcrumb li:last-child {
     margin-bottom: 10px;
   }
 }
-/* body {
-  background: url(https://cdn.jsdelivr.net/gh/WXAC4F/Blog-CDN/images/98239648_bg_08.png);
+body {
+  background: url("https://cdn.jsdelivr.net/gh/WXAC4F/Blog-CDN/images/81352383_bg_10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  }
-  */
-.main-inner {
-  background: rgba(0,0,0,0.3);
 }
+/*
+.footer {
+  background: rgba(0,0,0,.0);
+  }
+*/
 .header-inner {
-  background: rgba(0,0,0,0.25);
+  opacity: 0.8;
 }
 .sidebar-inner {
-  background: rgba(0,0,0,0.25);
+  opacity: 0.8;
 }
-.site-brand-container {
-  background: rgba(0,0,0,0.25);
+.main-inner {
+  opacity: 0.8;
 }
-.footer {
-  background: rgba(0,0,0,0);
-}
+/*
 @media (prefers-color-scheme: light) {
   :root {
     --body-bg-color: #282828;
@@ -2847,3 +2846,4 @@ ul.breadcrumb li:last-child {
     color-scheme: light;
   }
 }
+*/
