@@ -2797,7 +2797,7 @@ ul.breadcrumb li:last-child {
   }
 }
 body {
-  background: url("/images/81352383_bg_10.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/WXAC4F/Blog-CDN/images/81352383_bg_10.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
