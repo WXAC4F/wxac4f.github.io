@@ -2797,7 +2797,7 @@ ul.breadcrumb li:last-child {
   }
 }
 body {
-  background: url("https://cdn.jsdelivr.net/gh/WXAC4F/Blog-CDN/images/81352383_bg_10.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/WXAC4F/Blog-CDN/images/100979531_bg_13.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2809,13 +2809,13 @@ body {
   }
 */
 .header-inner {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 .sidebar-inner {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 .main-inner {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 /*
 @media (prefers-color-scheme: light) {
