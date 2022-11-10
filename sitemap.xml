@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wxac4f.github.io/2021/11/07/connect-git-with-github/</loc>
+    
+    <lastmod>2022-11-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wxac4f.github.io/2021/08/30/usb4-thunderbolt4-memo/</loc>
     
     <lastmod>2022-11-10</lastmod>
@@ -59,15 +68,6 @@
     <loc>https://wxac4f.github.io/2021/05/04/hack-hg2543c1/</loc>
     
     <lastmod>2022-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/2021/11/07/connect-git-with-github/</loc>
-    
-    <lastmod>2022-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,20 +218,6 @@
 
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Poems/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/DYT/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Github/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -253,14 +239,21 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/CTCC/</loc>
+    <loc>https://wxac4f.github.io/tags/DYT/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Test/</loc>
+    <loc>https://wxac4f.github.io/tags/Poems/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/CTCC/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -281,7 +274,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Music/</loc>
+    <loc>https://wxac4f.github.io/tags/Test/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -302,14 +295,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/USB/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Thunderbolt/</loc>
+    <loc>https://wxac4f.github.io/tags/Music/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -324,6 +310,20 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Xiaomi/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/USB/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Thunderbolt/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -346,6 +346,13 @@
 
   
   <url>
+    <loc>https://wxac4f.github.io/categories/Tutorials/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wxac4f.github.io/categories/Art/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,7 +360,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Tutorials/</loc>
+    <loc>https://wxac4f.github.io/categories/Website/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/categories/Network/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -368,20 +382,6 @@
   
   <url>
     <loc>https://wxac4f.github.io/categories/Test-Pages/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/categories/Network/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/categories/Website/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
