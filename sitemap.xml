@@ -260,6 +260,13 @@
   </url>
   
   <url>
+    <loc>https://wxac4f.github.io/tags/Test/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wxac4f.github.io/tags/Hexo/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -268,13 +275,6 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Website/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Test/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -296,20 +296,6 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Server/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Windows/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Microsoft/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -343,6 +329,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://wxac4f.github.io/tags/Windows/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Microsoft/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -367,7 +367,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Website/</loc>
+    <loc>https://wxac4f.github.io/categories/Test-Pages/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -381,7 +381,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Test-Pages/</loc>
+    <loc>https://wxac4f.github.io/categories/Website/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
