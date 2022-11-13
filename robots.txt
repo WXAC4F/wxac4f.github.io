@@ -9,3 +9,4 @@ Disallow: /anomaly/
 Disallow: /myself/
 Disallow: /real-about/
 Sitemap: https://wxac4f.github.io/sitemap.xml
+Sitemap: https://wxac4f.github.io/sitemap.txt
