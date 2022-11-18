@@ -26,15 +26,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wxac4f.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.13.2/config.min.js"></script>
 
-    <meta name="description" content="- Nihilist -">
+    <meta name="description" content="站点地图(Sitemap)介绍 站点地图描述了一个网站的架构. 它可以是一个任意形式的文档,用作网页设计的设计工具,也可以是列出网站中所有页面的一个网页,通常采用分级形式.这有助于访问者以及搜索引擎的爬虫找到网站中的页面.  站点地图为SEO带来的好处:  为搜索引擎爬虫提供可以浏览整个网站的链接; 为搜索引擎爬虫提供一些链接,指向动态页面或者采用其他方法比较难以到达的页面; 如果访问者试图访问网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo-生成Sitemap">
 <meta property="og:url" content="https://wxac4f.github.io/2021/01/10/hexo-generate-sitemap/index.html">
 <meta property="og:site_name" content="WXAC4F-Log">
-<meta property="og:description" content="- Nihilist -">
+<meta property="og:description" content="站点地图(Sitemap)介绍 站点地图描述了一个网站的架构. 它可以是一个任意形式的文档,用作网页设计的设计工具,也可以是列出网站中所有页面的一个网页,通常采用分级形式.这有助于访问者以及搜索引擎的爬虫找到网站中的页面.  站点地图为SEO带来的好处:  为搜索引擎爬虫提供可以浏览整个网站的链接; 为搜索引擎爬虫提供一些链接,指向动态页面或者采用其他方法比较难以到达的页面; 如果访问者试图访问网">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-01-10T15:04:02.000Z">
-<meta property="article:modified_time" content="2022-11-10T09:11:14.026Z">
+<meta property="article:modified_time" content="2022-11-18T17:16:10.636Z">
 <meta property="article:author" content="WXAC4F">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Website">
@@ -94,7 +94,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">17</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">23</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">10</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">19</span></a></li>
   </ul>
 </nav>
 
@@ -112,7 +112,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -125,6 +125,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE-Sitemap-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">站点地图(Sitemap)介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%A9Hexo%E7%94%9F%E6%88%90Sitemap"><span class="nav-number">2.</span> <span class="nav-text">让Hexo生成Sitemap</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Google%E7%89%88%E6%9C%AC"><span class="nav-number">2.1.</span> <span class="nav-text">Google版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Baidu%E7%89%88%E6%9C%AC-%E6%85%8E%E7%94%A8"><span class="nav-number">2.2.</span> <span class="nav-text">Baidu版本(慎用)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE-config-yml"><span class="nav-number">2.3.</span> <span class="nav-text">配置_config.yml</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -139,18 +140,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">23</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -237,7 +238,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-10 09:11:14" itemprop="dateModified" datetime="2022-11-10T09:11:14Z">2022-11-10</time>
+      <time title="Modified: 2022-11-18 17:16:10" itemprop="dateModified" datetime="2022-11-18T17:16:10Z">2022-11-18</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -259,7 +260,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        
+        <h1 id="站点地图-Sitemap-介绍"><a href="#站点地图-Sitemap-介绍" class="headerlink" title="站点地图(Sitemap)介绍"></a>站点地图(Sitemap)介绍</h1><blockquote>
+<p>站点地图描述了一个网站的架构. 它可以是一个任意形式的文档,用作网页设计的设计工具,也可以是列出网站中所有页面的一个网页,通常采用分级形式.<br>这有助于访问者以及搜索引擎的爬虫找到网站中的页面.</p>
+</blockquote>
+<p>站点地图为SEO带来的好处:</p>
+<ol>
+<li>为搜索引擎爬虫提供可以浏览整个网站的链接;</li>
+<li>为搜索引擎爬虫提供一些链接,指向动态页面或者采用其他方法比较难以到达的页面;</li>
+<li>如果访问者试图访问网站所在域内并不存在的URL,那么这个访问者就会被转到”无法找到文件”的错误页面,而网站地图可以作为该页面的”准”内容.</li>
+</ol>
+<p><strong>说白了就是让搜索引擎的爬虫,尽可能多的收录你站点上的页面,页面收录的越多,你的网站的流量就会越大.</strong></p>
+<h1 id="让Hexo生成Sitemap"><a href="#让Hexo生成Sitemap" class="headerlink" title="让Hexo生成Sitemap"></a>让Hexo生成Sitemap</h1><h2 id="Google版本"><a href="#Google版本" class="headerlink" title="Google版本"></a>Google版本</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+<h2 id="Baidu版本-慎用"><a href="#Baidu版本-慎用" class="headerlink" title="Baidu版本(慎用)"></a>Baidu版本(慎用)</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+<p><del>截止文章发布之时,上述包安装之后,会报一堆WARN</del></p>
+<h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h2><p>安装结束后,在<code>_config.yml</code>中找到<code>URL</code>,改成你自己的域名.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">YOUR</span> <span class="string">SITE</span> <span class="string">URL</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>更改完成后，每次<code>hexo g</code>的时候,会自动在<code>public</code>文件夹下生成<code>sitemap.xml</code>和<code>baidusitemap.xml</code>分别用于Google和百度</p>
+
     </div>
 
     
@@ -322,8 +340,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/07/06/pictured-as-perfect/" rel="prev" title="Frums - Pictured as Perfect">
-                  <i class="fa fa-chevron-left"></i> Frums - Pictured as Perfect
+                <a href="/2021/01/01/install-cuda-on-ubuntu/" rel="prev" title="在 Ubuntu 上安装 CUDA">
+                  <i class="fa fa-chevron-left"></i> 在 Ubuntu 上安装 CUDA
                 </a>
             </div>
             <div class="post-nav-item">

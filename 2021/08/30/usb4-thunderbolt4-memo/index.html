@@ -33,7 +33,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://wxac4f.github.io/2021/08/30/usb4-thunderbolt4-memo/01-summary-diagram.png">
 <meta property="article:published_time" content="2021-08-29T17:14:06.000Z">
-<meta property="article:modified_time" content="2022-11-10T09:15:04.232Z">
+<meta property="article:modified_time" content="2022-11-18T16:43:43.319Z">
 <meta property="article:author" content="WXAC4F">
 <meta property="article:tag" content="USB">
 <meta property="article:tag" content="Thunderbolt">
@@ -94,7 +94,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">17</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">23</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">10</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">19</span></a></li>
   </ul>
 </nav>
 
@@ -140,18 +140,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">23</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -238,7 +238,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-10 09:15:04" itemprop="dateModified" datetime="2022-11-10T09:15:04Z">2022-11-10</time>
+      <time title="Modified: 2022-11-18 16:43:43" itemprop="dateModified" datetime="2022-11-18T16:43:43Z">2022-11-18</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -264,7 +264,7 @@
 
 <span id="more"></span>
 <p>最近研究了一些关于 USB4 以及 Thunderbolt 4 的资料，在此做个备忘。目前只考虑 USB Type-C 接口，并且忽略 Type-C 可以正反随意插带来的复杂性。</p>
-<ul>
+<ol>
 <li>USB Type-C 接口里有一对（两根）差分信号线，用于 USB 2.0 协议（USB 2.0, 480 Mbps）。</li>
 <li>USB Type-C 接口里有四根 GND 以及四根 V_BUS 用于送电，具体电压和电流由两端使用 CC 线协商 (Power delivery)。</li>
 <li>在 Type-C 接口里再取两对差分信号线，用于 USB 3.x 协议（USB 3.2 Gen 1, 5 Gbps）。</li>
@@ -274,7 +274,7 @@
 <li>Intel 觉得 Type-C 接口不错，于是有了 Thunderbolt Alt mode，使用全部四对差分信号线传输 Thunderbolt 协议（Thunderbolt 3, 40Gbps）。<br>Thunderbolt 3 本身是一种隧道协议，在这个隧道中可以传输 PCI-E 数据和 DisplayPort 数据。<br>至于 USB 则可以在扩展坞中内置一个 USB 控制器芯片，通过 PCI-E 与电脑连接，这样扩展坞就可以插 USB 设备了。</li>
 <li>USB-IF 觉得 Thunderbolt 3 这个协议不错，在 Intel 开放了 Thunderbolt 3 协议后，就把它拿过来“改名”成了 USB4。使用 USB Type-C 中的两对或四对差分信号线传输（USB4, ~40Gbps）。<br>与 Thunderbolt 3 相同，USB4 也是一种隧道协议，其中可以传输 USB 3.2，PCI-E，DisplayPort 等协议。<br>（吐槽时间：外层协议和内层协议都叫 USB 你是认真的吗？）<br>USB4 规范并不要求硬件生产厂家实现所有功能，比如说，一个最高只支持 20Gbps 速度的设备可以合法地被称作“支持 USB4”。因为 USB4 规范并不要求所有设备都支持 40Gbps。（吔屎啦你 USB-IF）</li>
 <li>Intel 觉得 USB-IF 的标准混乱，是赚钱的好机会，于是自己列了一套更高的标准（比如要求设备必须支持 40Gbps 速度），并给符合 Intel 的标准的设备贴上 “Thunderbolt 4” 的标签。<br>最后围观 USB4 混乱的速度要求被鞭尸的现场: <a target="_blank" rel="noopener" href="https://youtu.be/ly5-QHjs8Gw?t=1845">https://youtu.be/ly5-QHjs8Gw?t=1845</a></li>
-</ul>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Allison Sheridan: So a Thunderbolt 4 device is a USB4 device...</span><br><span class="line">Brad Saunders:    (nodding)</span><br><span class="line">Allison Sheridan: ...but a USB4 device is not necessarily a Thunderbolt 4 device?</span><br><span class="line">Brad Saunders:    It can be ...</span><br><span class="line">Allison Sheridan: It can be but it isn&#x27;t necessarily.</span><br><span class="line">Brad Saunders:    It&#x27;ll probably have... they may have made a choice to... maybe it&#x27;s only 20 Gbps.</span><br><span class="line">Allison Sheridan: Right, but it&#x27;s Thunderbolt 4 it&#x27;s 40 [Gbps] per second, Okay.</span><br></pre></td></tr></table></figure>
 
 <h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul>
