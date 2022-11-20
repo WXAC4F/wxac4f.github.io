@@ -608,7 +608,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-18 17:16:10" itemprop="dateModified" datetime="2022-11-18T17:16:10Z">2022-11-18</time>
+      <time title="Modified: 2022-11-20 01:42:37" itemprop="dateModified" datetime="2022-11-20T01:42:37Z">2022-11-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -640,14 +640,14 @@
 <li>如果访问者试图访问网站所在域内并不存在的URL,那么这个访问者就会被转到”无法找到文件”的错误页面,而网站地图可以作为该页面的”准”内容.</li>
 </ol>
 <p><strong>说白了就是让搜索引擎的爬虫,尽可能多的收录你站点上的页面,页面收录的越多,你的网站的流量就会越大.</strong></p>
-<h1 id="让Hexo生成Sitemap"><a href="#让Hexo生成Sitemap" class="headerlink" title="让Hexo生成Sitemap"></a>让Hexo生成Sitemap</h1><h2 id="Google版本"><a href="#Google版本" class="headerlink" title="Google版本"></a>Google版本</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-<h2 id="Baidu版本-慎用"><a href="#Baidu版本-慎用" class="headerlink" title="Baidu版本(慎用)"></a>Baidu版本(慎用)</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-<p><del>截止文章发布之时,上述包安装之后,会报一堆WARN</del></p>
-<h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h2><p>安装结束后,在<code>_config.yml</code>中找到<code>URL</code>,改成你自己的域名.</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">YOUR</span> <span class="string">SITE</span> <span class="string">URL</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>更改完成后，每次<code>hexo g</code>的时候,会自动在<code>public</code>文件夹下生成<code>sitemap.xml</code>和<code>baidusitemap.xml</code>分别用于Google和百度</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/10/hexo-generate-sitemap/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
