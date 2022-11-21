@@ -232,7 +232,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-18 16:18:33" itemprop="dateModified" datetime="2022-11-18T16:18:33Z">2022-11-18</time>
+      <time title="Modified: 2022-11-21 04:54:30" itemprop="dateModified" datetime="2022-11-21T04:54:30Z">2022-11-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -259,26 +259,6 @@
     
     <div class="post-body" itemprop="articleBody">
           <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>老是忘记怎么在 Ubuntu 上安装 CUDA,每次有新机器都要在环境恶劣的互联网上寻找各种不靠谱又容易炸的教程.还是简单做个总结,关于如何安装炼丹人必备的依赖 <code>CUDA</code></p>
-<h2 id="一些链接"><a href="#一些链接" class="headerlink" title="一些链接"></a>一些链接</h2><ul>
-<li>CUDA GPU Capability <a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a></li>
-<li>CUDA Zone <a target="_blank" rel="noopener" href="https://developer.nvidia.com/CUDA-zone">https://developer.nvidia.com/CUDA-zone</a></li>
-</ul>
-<h1 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h1><h2 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h2><p>先看看机器的版本号啥的</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo lsb_release -a</span><br><span class="line"></span><br><span class="line">No LSB modules are available.</span><br><span class="line">Distributor ID: Ubuntu</span><br><span class="line">Description:    Ubuntu 18.04.2 LTS</span><br><span class="line">Release:        18.04</span><br><span class="line">Codename:       bionic</span><br></pre></td></tr></table></figure>
-
-<p>再看看显卡在不在</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lspci | grep NVIDIA</span><br><span class="line"></span><br><span class="line">18:00.0 3D controller: NVIDIA Corporation Device 1eb8 (rev a1)</span><br><span class="line">af:00.0 3D controller: NVIDIA Corporation Device 1eb8 (rev a1)</span><br></pre></td></tr></table></figure>
-
-<p>再换个源.机器在深圳,用科大了</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i <span class="string">&#x27;s/archive.ubuntu.com/mirrors.ustc.edu.cn/g&#x27;</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="Step-1：安装-ubuntu-drivers-并配置驱动"><a href="#Step-1：安装-ubuntu-drivers-并配置驱动" class="headerlink" title="Step 1：安装 ubuntu-drivers 并配置驱动"></a>Step 1：安装 <code>ubuntu-drivers</code> 并配置驱动</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install ubuntu-drivers-common -y</span><br></pre></td></tr></table></figure>
-
-<p>运行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">ubuntu-drivers devices</span><br><span class="line"></span><br><span class="line">== /sys/devices/pci0000:17/0000:17:00.0/0000:18:00.0 ==</span><br><span class="line">modalias : pci:balabalabala</span><br><span class="line">vendor   : NVIDIA Corporation</span><br><span class="line">driver   : nvidia-driver-440-server - distro non-free</span><br><span class="line">driver   : nvidia-driver-450-server - distro non-free</span><br><span class="line">driver   : nvidia-driver-455 - distro non-free recommended</span><br><span class="line">driver   : nvidia-driver-450 - distro non-free</span><br><span class="line">driver   : nvidia-driver-418-server - distro non-free</span><br><span class="line">driver   : xserver-xorg-video-nouveau - distro free <span class="built_in">builtin</span></span><br></pre></td></tr></table></figure>
-
-<p>装那个 recommended 的</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nvidia-driver-455</span><br></pre></td></tr></table></figure>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2021/01/01/install-cuda-on-ubuntu/#more" rel="contents">
