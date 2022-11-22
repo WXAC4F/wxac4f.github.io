@@ -26,15 +26,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wxac4f.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.13.2/config.min.js"></script>
 
-    <meta name="description" content="前言考虑到安全原因，这篇文章用英语写成。如果你没有足够的勇气读完它，请自觉退出。 This article is written mainly for those people in China. Be sure you are enough familiar with what you are reading and what you try to do. 正文As we all known,">
+    <meta name="description" content="前言考虑到安全原因，这篇文章用英语写成。如果你没有足够的勇气读完它，请自觉退出。 This article is written mainly for those people in China. Be sure you are enough familiar with what you are reading and what you try to do.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How to solve the &quot;Connection Reset&quot; problem">
 <meta property="og:url" content="https://wxac4f.github.io/2012/12/31/solve-the-connection-reset-problem/index.html">
 <meta property="og:site_name" content="WXAC4F-Log">
-<meta property="og:description" content="前言考虑到安全原因，这篇文章用英语写成。如果你没有足够的勇气读完它，请自觉退出。 This article is written mainly for those people in China. Be sure you are enough familiar with what you are reading and what you try to do. 正文As we all known,">
+<meta property="og:description" content="前言考虑到安全原因，这篇文章用英语写成。如果你没有足够的勇气读完它，请自觉退出。 This article is written mainly for those people in China. Be sure you are enough familiar with what you are reading and what you try to do.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2012-12-31T12:50:00.000Z">
-<meta property="article:modified_time" content="2022-11-21T05:47:19.435Z">
+<meta property="article:modified_time" content="2022-11-22T12:54:14.888Z">
 <meta property="article:author" content="WXAC4F">
 <meta property="article:tag" content="Black Technology">
 <meta property="article:tag" content="GFW">
@@ -238,7 +238,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-21 05:47:19" itemprop="dateModified" datetime="2022-11-21T05:47:19Z">2022-11-21</time>
+      <time title="Modified: 2022-11-22 12:54:14" itemprop="dateModified" datetime="2022-11-22T12:54:14Z">2022-11-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -262,6 +262,8 @@
     <div class="post-body" itemprop="articleBody">
         <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考虑到安全原因，这篇文章用英语写成。如果你没有足够的勇气读完它，请自觉退出。</p>
 <p>This article is written mainly for those people in China. Be sure you are enough familiar with what you are reading and what you try to do.</p>
+<span id="more"></span>
+
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>As we all known, in China mainland, we cannot visit sites like YouTube Facebook Twitter. And the Google sites are out of service frequently. It’s because the Chinese government used some technical methods to prevent us from visiting them. The government has setup a system to do this. It’s called the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Great_Firewall">Great Firewall of China</a> (GFW). This system keeps look on the gateway export. And if it finds something unusual. It will stop the connection.</p>
 <p>The system usually inject a RESET into the TCP connection. To prevent this, we can use HTTPS(The S means Secure) instead of HTTP. So the system can not inject the RESET any more. It’s easy to perform. You just need to replace the “http:&#x2F;&#x2F;“ part of a URL with “https:&#x2F;&#x2F;“. And the URL will look like this “<a target="_blank" rel="noopener" href="https://www.facebook.com/">https://www.facebook.com</a>“. Most of the sites support a HTTPS connection.</p>
 <p>Unfortunately, this will not always works. Because the system also used another method called “DNS Redirection”. As we all known, the computers on the Internet are identified by IP address. But human can’t remember them easily. So we use some meaningful phases called “Domain”. Some computers on the Internet provide the kind of service to translate the domains to IP address which is the only form computers can recognize. They are called the “DNS Server”. DNS Redirection is that the DNS servers won’t return the correct IP address (usually were instructed to do so) so that we can’t visit the particular sites.</p>
