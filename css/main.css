@@ -2581,10 +2581,10 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-.header-inner {
+.header {
   opacity: 0.75;
 }
-.sidebar-inner {
+.sidebar {
   opacity: 0.75;
 }
 .main-inner {
