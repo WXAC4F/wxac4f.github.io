@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wxac4f.github.io/about/index.html</loc>
+    
+    <lastmod>2023-03-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wxac4f.github.io/the-start-next/index.html</loc>
     
     <lastmod>2023-03-28</lastmod>
@@ -201,15 +210,6 @@
   
   <url>
     <loc>https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/</loc>
-    
-    <lastmod>2022-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/about/index.html</loc>
     
     <lastmod>2022-11-10</lastmod>
     
@@ -497,20 +497,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Black-Technology/</loc>
-    <lastmod>2023-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/GFW/</loc>
-    <lastmod>2023-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Tencent/</loc>
     <lastmod>2023-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -519,6 +505,20 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Server/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Black-Technology/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/GFW/</loc>
     <lastmod>2023-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

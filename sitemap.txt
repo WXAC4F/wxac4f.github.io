@@ -1,3 +1,4 @@
+https://wxac4f.github.io/about/index.html
 https://wxac4f.github.io/the-start-next/index.html
 https://wxac4f.github.io/the-start/index.html
 https://wxac4f.github.io/2021/08/24/an1ao-essays-poem-04/
@@ -21,7 +22,6 @@ https://wxac4f.github.io/404.html
 https://wxac4f.github.io/2021/11/07/connect-git-with-github/
 https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/
 https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/
-https://wxac4f.github.io/about/index.html
 https://wxac4f.github.io/2021/05/04/hack-hg2543c1/
 https://wxac4f.github.io/tags/index.html
 https://wxac4f.github.io/categories/index.html
@@ -57,10 +57,10 @@ https://wxac4f.github.io/tags/Linux/
 https://wxac4f.github.io/tags/Music/
 https://wxac4f.github.io/tags/RaspberryPi/
 https://wxac4f.github.io/tags/WiFi/
-https://wxac4f.github.io/tags/Black-Technology/
-https://wxac4f.github.io/tags/GFW/
 https://wxac4f.github.io/tags/Tencent/
 https://wxac4f.github.io/tags/Server/
+https://wxac4f.github.io/tags/Black-Technology/
+https://wxac4f.github.io/tags/GFW/
 https://wxac4f.github.io/tags/Router/
 https://wxac4f.github.io/tags/Xiaomi/
 https://wxac4f.github.io/tags/USB/
