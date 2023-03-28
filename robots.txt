@@ -8,5 +8,6 @@ Allow: /page/
 Disallow: /anomaly/
 Disallow: /myself/
 Disallow: /real-about/
+Disallow: /404.html
 Sitemap: https://wxac4f.github.io/sitemap.xml
 Sitemap: https://wxac4f.github.io/sitemap.txt
