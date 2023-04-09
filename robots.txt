@@ -6,6 +6,7 @@ Allow: /tags/
 Allow: /about/
 Allow: /page/
 Disallow: /anomaly/
+Disallow: /changlog/
 Disallow: /myself/
 Disallow: /real-about/
 Disallow: /music/
