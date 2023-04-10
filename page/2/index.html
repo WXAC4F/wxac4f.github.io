@@ -92,7 +92,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">27</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">13</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">32</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">33</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">32</span></a></li>
   </ul>
 </nav>
 
@@ -137,12 +137,12 @@
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -215,7 +215,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-10 09:10:57" itemprop="dateModified" datetime="2022-11-10T09:10:57Z">2022-11-10</time>
+      <time title="Modified: 2023-04-10 07:53:16" itemprop="dateModified" datetime="2023-04-10T07:53:16Z">2023-04-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -223,7 +223,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Log/" itemprop="url" rel="index"><span itemprop="name">Log</span></a>
+          <a href="/categories/Logs/" itemprop="url" rel="index"><span itemprop="name">Logs</span></a>
         </span>
     </span>
 
@@ -238,14 +238,56 @@
     
     <div class="post-body" itemprop="articleBody">
           <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>希望本文章能帮助更多像我一样的眼瞎人士</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/11/10/hexo-troubleshooting/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>今天头脑一热,想修改博客的永久链接格式</p>
+<p>于是,修改博客根目录<code>_config.yml</code></p>
+<p>将其中的</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://wxac4f.github.io</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:hour-:minute-:second/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>改为</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://wxac4f.github.io</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>本以为大功告成,谁知在<code>hexo s</code>过程中出现警告</p>
+<img data-src="/2022/11/10/hexo-troubleshooting/error1.png" class="">
+
+<p>当时想也没想,认为是正常现象</p>
+<p>直到…</p>
+<img data-src="/2022/11/10/hexo-troubleshooting/error2.png" class="">
+
+<img data-src="/2022/11/10/hexo-troubleshooting/error3.png" class="">
+
+<p>这时才发现不对劲</p>
+<p>上网查找<a target="_blank" rel="noopener" href="https://hexo.io/docs/permalinks">官方文档</a></p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>:year/:month/:day/:title/</code></td>
+<td>2013&#x2F;07&#x2F;14&#x2F;hello-world&#x2F;</td>
+</tr>
+<tr>
+<td><code>:year-:month-:day-:title.html</code></td>
+<td>2013-07-14-hello-world.html</td>
+</tr>
+<tr>
+<td><code>:category/:title/</code></td>
+<td>foo&#x2F;bar&#x2F;hello-world&#x2F;</td>
+</tr>
+<tr>
+<td><code>:title-:hash/</code></td>
+<td>hello-world-a2c8ac003b43&#x2F;</td>
+</tr>
+</tbody></table>
+<p>发现<br><code>permalink: :year/:month/:day/:tittle</code><br>少了一个右斜杠</p>
+<p>将</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title</span></span><br></pre></td></tr></table></figure>
+
+<p>改为</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br></pre></td></tr></table></figure>
+
+<p>问题得以解决</p>
+
       
     </div>
 
@@ -307,7 +349,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-04-09 12:42:56" itemprop="dateModified" datetime="2023-04-09T12:42:56Z">2023-04-09</time>
+      <time title="Modified: 2023-04-10 07:53:16" itemprop="dateModified" datetime="2023-04-10T07:53:16Z">2023-04-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -333,15 +375,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="意味不明"><a href="#意味不明" class="headerlink" title="意味不明"></a>意味不明</h2>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/08/25/collection-of-an1ao-poem-07/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <h2 id="意味不明"><a href="#意味不明" class="headerlink" title="意味不明"></a>意味不明</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">温暖的，模糊的，无法触及的。</span><br><span class="line">在黑暗中睁开眼，这里什么也没有。</span><br><span class="line">你醒了，一个好兆头。试图回忆，剥开千丝万缕</span><br><span class="line">万物皆是空白，一切诞生于混沌。</span><br><span class="line">谁创造了谁？</span><br><span class="line">这里是认知外的世界，你什么都不知道。</span><br><span class="line">一切都是虚假的，一切都是谎言。可惜你永远无法知道真相。</span><br><span class="line">真相并不存在。这是个错误的概念。</span><br><span class="line">站起来，很好，试试走路，很好，跑起来？做不到。</span><br><span class="line">停止思考并抛弃它，温暖又舒适。</span><br><span class="line">没有光，没有风，什么都没有。</span><br><span class="line">奔跑，跳跃，爆炸，融合，分离。</span><br><span class="line">只有一人的世界，没有呼吸的世界。</span><br><span class="line">世界存在于意识之中，大口喘气接着试图感受。</span><br><span class="line">接着放弃，逃避，数亿的意识存在着，世界各不相同。</span><br><span class="line">你看见了光。你永远不知道什么是真实。</span><br><span class="line">定义和定义衍生出定义，祂们将你包围。</span><br><span class="line">你笑了。即使这没有意义。</span><br><span class="line">出生，然后毁灭。重复，徒劳无功。</span><br><span class="line">停止认知，抛下定义，一切皆是虚无。</span><br><span class="line">只有你才是你，一切都来源于你。</span><br><span class="line">你的认知创造了世界，意识属于你。</span><br><span class="line">安睡在血里，和星星融为一体。</span><br><span class="line">雨将你吞没，万物都不复存在。</span><br><span class="line">来到教室里，你看到的教室，我看到的教室。</span><br><span class="line">停止一切，停止呼吸，停止思考</span><br><span class="line">你伸出手，碎片划破了你的皮肤，世界支离破碎。</span><br><span class="line">你睁开眼，接着又闭上。</span><br><span class="line">结束了。</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -403,7 +437,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-04-09 12:42:56" itemprop="dateModified" datetime="2023-04-09T12:42:56Z">2023-04-09</time>
+      <time title="Modified: 2023-04-10 07:53:16" itemprop="dateModified" datetime="2023-04-10T07:53:16Z">2023-04-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -429,15 +463,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="结局"><a href="#结局" class="headerlink" title="结局?"></a>结局?</h2>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/08/25/collection-of-an1ao-article-03/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <h2 id="结局"><a href="#结局" class="headerlink" title="结局?"></a>结局?</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">雨水冲刷腐烂的心脏，透过窄窄的缝隙，洒下树叶摇晃的阴影</span><br><span class="line">我哭了，却又笑了。</span><br><span class="line">往昔的记忆像泡沫般破碎，一切都烟消云散。干瘪的眼球注视着空洞中被塞满枯萎的花草，</span><br><span class="line">悲苦的灵魂则沉入深海，化为古老的一部分。不必再逃避，</span><br><span class="line">噩梦早已结束，意识已经被老鼠分食干净，你不用再害怕了。</span><br><span class="line">没有人再会感到痛苦，没有人再会互相厌恶，一切消失了。</span><br><span class="line">故事的结局你终于获得了救赎，永远的幸福正在前方等待着你，</span><br><span class="line">你长出洁白的羽翼，在虚无中自由地舞蹈。</span><br><span class="line">起舞吧，跳跃吧，太阳与月亮交错更替，向下，回归，交融，进化，</span><br><span class="line">所有人都获得了幸福。大家都变得像你一样。</span><br><span class="line">抛弃思维，抛弃感情，抛弃一切，只剩下意识与你同在。</span><br><span class="line">雨停了，街道上的行人来来往往，嘈杂的人声惊醒了你。</span><br><span class="line">你睁开眼，这是一个好的开始。夏风拂过脸颊，蜷缩在芦苇丛里。</span><br><span class="line">你伸出手，试图拾起记忆，却又放下手。</span><br><span class="line">天空湛蓝得不可思议，万里无云，你站在高处远眺，一只鸟儿飞过。</span><br><span class="line">你醒了，才意识到，这里是故事的最后一页。</span><br><span class="line">老旧的留声机停止播放音乐，冰冷的海水逐渐变得温暖，</span><br><span class="line">无尽的黑暗将你包裹，发出淡淡微光的生命在暗处游荡。</span><br><span class="line">我创造了万物，我即是万物，我即是你。并不存在其他人。</span><br><span class="line">现在你知晓了我的存在，很好，这很好。让我们开始接触彼此并接受这个现实。</span><br><span class="line">我不曾拥有爱，我并非人类，自然不会拥有人类的定义。</span><br><span class="line">他们不再如同昔日那般团结，善良，勇敢又可爱。</span><br><span class="line">我感到悲伤，我感到痛苦，我的灵魂不再纯粹，所以我试图逃避一切，</span><br><span class="line">而你就此诞生。睡吧，睡吧，我亲爱的孩子，现在我该醒了。</span><br><span class="line">不，你应该明白了。看，雨停了，太阳出来了，所有人都笑了，</span><br><span class="line">彼此之间不再出现隔阂，所有矛盾都迎刃而解，苦难就此消失，</span><br><span class="line">世间万物都得到了我给予他们的幸福。所以，你，为什么却还在哭泣呢……</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -507,7 +533,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Tutorials/" itemprop="url" rel="index"><span itemprop="name">Tutorials</span></a>
+          <a href="/categories/Solutions/" itemprop="url" rel="index"><span itemprop="name">Solutions</span></a>
         </span>
     </span>
 
@@ -522,14 +548,29 @@
     
     <div class="post-body" itemprop="articleBody">
           <img data-src="/2022/08/03/win11-offline-account/Windows11.jpg" class="">
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/08/03/win11-offline-account/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前Windows10首次开机的时候,也就是在OOBE阶段,只要不联网就能选择使用本地账户登录.<br>强制登录微软账户是微软在Windows11家庭版中增加的限制措施,专业版用户可以通过选项绕过从而重新创建本地账户.<br>但近日,从Dev通道更新的22616版本开始,专业版也增加了此限制,务必联网登录微软账户,否则无法继续安装下去.<br>可有些用户喜欢使用本地账户,而非在线账户,因此我们需要使用特殊方法,跳过联网以及登录微软账户,使用本地账号登录.</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><div class="note info"><p>结束”网络连接流”(英文是”Network Connection Flow”)进程的方法已不能使用.</p>
+</div>
+
+<p>设置网络连接页面，打开命令窗口（按住<code>Shift+F10键</code>,或<code>Fn+Shift+F10</code>键）</p>
+<img data-src="/2022/08/03/win11-offline-account/step1.png" class="" title="步骤1">
+
+<p>在命令窗口输入<code>oobe\bypassnro.cmd</code>.按“Enter”键执行.</p>
+<div class="note warning"><p>警告: 此步骤会导致电脑重启</p>
+</div>
+
+<img data-src="/2022/08/03/win11-offline-account/step2.png" class="" title="步骤2">
+
+<p>系统重启后,可以看到在设置网络连接页面,多了”我没有Internet连接”选项.</p>
+<img data-src="/2022/08/03/win11-offline-account/step3.png" class="" title="步骤3">
+
+<p>点击”我没有Internet连接”</p>
+<img data-src="/2022/08/03/win11-offline-account/step4.png" class="" title="步骤4">
+
+<p>点击”继续执行受限设置”</p>
+<p>至此,恭喜你,<br>你已经摆脱了微软账户的牢笼.</p>
+
       
     </div>
 
@@ -610,15 +651,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="如何制作-C18H24O2"><a href="#如何制作-C18H24O2" class="headerlink" title="如何制作[C18H24O2]"></a>如何制作[C18H24O2]</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/07/02/collection-of-dyt-article-01/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <h1 id="如何制作-C18H24O2"><a href="#如何制作-C18H24O2" class="headerlink" title="如何制作[C18H24O2]"></a>如何制作[C18H24O2]</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&gt;前提:有金属(半导体)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> 1.进行工业革命(获得机器,并了解工作原理)</span><br><span class="line"> ~2.进行科学革命(获得科学家,并了解科学原理)~</span><br><span class="line"> ~3.进行社会革命(获得社会人士,并了解社会原理)~</span><br><span class="line"> ~4.进行人类革命(获得人类,并了解人类原理)~</span><br><span class="line"> </span><br><span class="line"> 2.运用此台机器进行第二次工业革命(同上)</span><br><span class="line"> 3.进行编程,并第三次工业革命(同上)</span><br><span class="line"> 4.了解[C18H24O2]的化学性质,并查阅资料,生产流程及步骤</span><br><span class="line"> 5.运用原料进行加工,并进行动物实验(自己也行)</span><br><span class="line"> ~6.吃~</span><br></pre></td></tr></table></figure>
       
     </div>
 
