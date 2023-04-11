@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WXAC4F-Log</title>
+  
+  <subtitle>We live in a sick world</subtitle>
+  <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wxac4f.github.io/"/>
+  <updated>2023-04-10T07:53:16.329Z</updated>
+  <id>https://wxac4f.github.io/</id>
+  
+  <author>
+    <name>WXAC4F</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>An1ao作品集-诗08</title>
+    <link href="https://wxac4f.github.io/2023/03/25/collection-of-an1ao-poem-08/"/>
+    <id>https://wxac4f.github.io/2023/03/25/collection-of-an1ao-poem-08/</id>
+    <published>2023-03-25T15:45:00.000Z</published>
+    <updated>2023-04-10T07:53:16.329Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;我与我们的故事&quot;&gt;&lt;a href=&quot;#我与我们的故事&quot; class=&quot;headerlink&quot; title=&quot;我与我们的故事&quot;&gt;&lt;/a&gt;我与我们的故事&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>沈默作品集-文01</title>
+    <link href="https://wxac4f.github.io/2023/03/20/collection-of-shenmo-article-01/"/>
+    <id>https://wxac4f.github.io/2023/03/20/collection-of-shenmo-article-01/</id>
+    <published>2023-03-19T20:19:00.000Z</published>
+    <updated>2023-04-10T07:53:16.329Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;墓碑&quot;&gt;&lt;a href=&quot;#墓碑&quot; class=&quot;headerlink&quot; title=&quot;墓碑&quot;&gt;&lt;/a&gt;墓碑&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;s</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
+    
+    <category term="ShenMo" scheme="https://wxac4f.github.io/tags/ShenMo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无法登录E5开发者账户的解决方案</title>
+    <link href="https://wxac4f.github.io/2022/11/19/can-not-login-e5-account/"/>
+    <id>https://wxac4f.github.io/2022/11/19/can-not-login-e5-account/</id>
+    <published>2022-11-18T23:10:33.000Z</published>
+    <updated>2023-04-11T12:08:04.631Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;错误地设置了双重认证&lt;br&gt;导致无法登录E5开发者帐号&lt;br&gt;于2021年5月28日夜间在微软论坛&lt;a href=&quot;https://answ</summary>
+      
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Microsoft" scheme="https://wxac4f.github.io/tags/Microsoft/"/>
+    
+    <category term="E5" scheme="https://wxac4f.github.io/tags/E5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派修复WiFi 5Ghz频段无法使用的问题</title>
+    <link href="https://wxac4f.github.io/2022/11/15/rpi-fix-wifi-5ghz/"/>
+    <id>https://wxac4f.github.io/2022/11/15/rpi-fix-wifi-5ghz/</id>
+    <published>2022-11-14T20:04:06.000Z</published>
+    <updated>2023-04-11T12:03:03.983Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Raspberry Pi OS环境下暂无测试&lt;/p&gt;
+&lt;p&gt;这里在Manjaro ARM 22.10系统环境下举例&lt;/p&gt;
+&lt;h1 id=&quot;</summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="https://wxac4f.github.io/categories/Linux/"/>
+    
+    
+    <category term="Raspi" scheme="https://wxac4f.github.io/tags/Raspi/"/>
+    
+    <category term="Raspberry Pi OS" scheme="https://wxac4f.github.io/tags/Raspberry-Pi-OS/"/>
+    
+    <category term="WiFi" scheme="https://wxac4f.github.io/tags/WiFi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-记录一次故障排查的经过</title>
+    <link href="https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/"/>
+    <id>https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/</id>
+    <published>2022-11-09T16:10:43.000Z</published>
+    <updated>2023-04-10T07:53:16.329Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;希望本文章能帮助更多像我一样的眼瞎人士&lt;/p&gt;
+&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; t</summary>
+      
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
+    
+    <category term="Website" scheme="https://wxac4f.github.io/tags/Website/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-诗07</title>
+    <link href="https://wxac4f.github.io/2022/08/25/collection-of-an1ao-poem-07/"/>
+    <id>https://wxac4f.github.io/2022/08/25/collection-of-an1ao-poem-07/</id>
+    <published>2022-08-25T02:45:00.000Z</published>
+    <updated>2023-04-10T07:53:16.329Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;意味不明&quot;&gt;&lt;a href=&quot;#意味不明&quot; class=&quot;headerlink&quot; title=&quot;意味不明&quot;&gt;&lt;/a&gt;意味不明&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-文03</title>
+    <link href="https://wxac4f.github.io/2022/08/25/collection-of-an1ao-article-03/"/>
+    <id>https://wxac4f.github.io/2022/08/25/collection-of-an1ao-article-03/</id>
+    <published>2022-08-25T02:09:00.000Z</published>
+    <updated>2023-04-10T07:53:16.222Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;结局&quot;&gt;&lt;a href=&quot;#结局&quot; class=&quot;headerlink&quot; title=&quot;结局?&quot;&gt;&lt;/a&gt;结局?&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跳过Windows11 OOBE中的微软账户登录</title>
+    <link href="https://wxac4f.github.io/2022/08/03/win11-offline-account/"/>
+    <id>https://wxac4f.github.io/2022/08/03/win11-offline-account/</id>
+    <published>2022-08-03T00:25:00.000Z</published>
+    <updated>2022-08-05T00:25:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;img data-src=&quot;/2022/08/03/win11-offline-account/Windows11.jpg&quot; class=&quot;&quot;&gt;
+
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://wxac4f.github.io/categories/Windows/"/>
+    
+    
+    <category term="Microsoft" scheme="https://wxac4f.github.io/tags/Microsoft/"/>
+    
+    <category term="Windows 11" scheme="https://wxac4f.github.io/tags/Windows-11/"/>
+    
+    <category term="Offline account" scheme="https://wxac4f.github.io/tags/Offline-account/"/>
+    
+    <category term="OOBE" scheme="https://wxac4f.github.io/tags/OOBE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碘钇钛作品集-文01</title>
+    <link href="https://wxac4f.github.io/2022/07/02/collection-of-dyt-article-01/"/>
+    <id>https://wxac4f.github.io/2022/07/02/collection-of-dyt-article-01/</id>
+    <published>2022-07-01T23:50:00.000Z</published>
+    <updated>2022-07-01T23:50:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;如何制作-C18H24O2&quot;&gt;&lt;a href=&quot;#如何制作-C18H24O2&quot; class=&quot;headerlink&quot; title=&quot;如何制作[C18H24O2]&quot;&gt;&lt;/a&gt;如何制作[C18H24O2]&lt;/h1&gt;&lt;figure class=&quot;highlight pl</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
+    
+    <category term="DYT" scheme="https://wxac4f.github.io/tags/DYT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碘钇钛作品集-诗03</title>
+    <link href="https://wxac4f.github.io/2022/07/01/collection-of-dyt-poem-03/"/>
+    <id>https://wxac4f.github.io/2022/07/01/collection-of-dyt-poem-03/</id>
+    <published>2022-07-01T12:30:00.000Z</published>
+    <updated>2022-07-01T12:30:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;致WXAC4F的挽联&quot;&gt;&lt;a href=&quot;#致WXAC4F的挽联&quot; class=&quot;headerlink&quot; title=&quot;致WXAC4F的挽联&quot;&gt;&lt;/a&gt;致WXAC4F的挽联&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;tabl</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+    <category term="DYT" scheme="https://wxac4f.github.io/tags/DYT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碘钇钛作品集-诗02</title>
+    <link href="https://wxac4f.github.io/2022/07/01/collection-of-dyt-poem-02/"/>
+    <id>https://wxac4f.github.io/2022/07/01/collection-of-dyt-poem-02/</id>
+    <published>2022-07-01T12:00:00.000Z</published>
+    <updated>2022-07-01T12:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;送友人&quot;&gt;&lt;a href=&quot;#送友人&quot; class=&quot;headerlink&quot; title=&quot;送友人&quot;&gt;&lt;/a&gt;送友人&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+    <category term="DYT" scheme="https://wxac4f.github.io/tags/DYT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碘钇钛作品集-诗01</title>
+    <link href="https://wxac4f.github.io/2022/06/30/collection-of-dyt-poem-01/"/>
+    <id>https://wxac4f.github.io/2022/06/30/collection-of-dyt-poem-01/</id>
+    <published>2022-06-30T12:00:00.000Z</published>
+    <updated>2022-06-30T12:00:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;To-myself-nobody-—-The-end&quot;&gt;&lt;a href=&quot;#To-myself-nobody-—-The-end&quot; class=&quot;headerlink&quot; title=&quot;To ? myself nobody? — The end :(&quot;&gt;&lt;/a&gt;To</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+    <category term="DYT" scheme="https://wxac4f.github.io/tags/DYT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卸载腾讯云安全组件</title>
+    <link href="https://wxac4f.github.io/2022/05/24/uninst-txagent/"/>
+    <id>https://wxac4f.github.io/2022/05/24/uninst-txagent/</id>
+    <published>2022-05-24T14:24:38.000Z</published>
+    <updated>2022-05-24T14:24:38.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;今天早上收到一条提醒，用来做梯子的腾讯云机器被提示封禁了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尊敬的腾讯云用户，您好！&lt;br&gt;您的腾讯</summary>
+      
+    
+    
+    
+    <category term="Network" scheme="https://wxac4f.github.io/categories/Network/"/>
+    
+    <category term="VPS" scheme="https://wxac4f.github.io/categories/Network/VPS/"/>
+    
+    
+    <category term="Website" scheme="https://wxac4f.github.io/tags/Website/"/>
+    
+    <category term="VPS" scheme="https://wxac4f.github.io/tags/VPS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-诗06</title>
+    <link href="https://wxac4f.github.io/2022/04/18/collection-of-an1ao-poem-06/"/>
+    <id>https://wxac4f.github.io/2022/04/18/collection-of-an1ao-poem-06/</id>
+    <published>2022-04-17T19:54:00.000Z</published>
+    <updated>2023-04-10T07:53:16.329Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;今天也要-浪费生命&quot;&gt;&lt;a href=&quot;#今天也要-浪费生命&quot; class=&quot;headerlink&quot; title=&quot;今天也要 浪费生命&quot;&gt;&lt;/a&gt;今天也要 浪费生命&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://wxac4f.github.io/2022/04/02/hello-world/"/>
+    <id>https://wxac4f.github.io/2022/04/02/hello-world/</id>
+    <published>2022-04-02T13:00:24.000Z</published>
+    <updated>2022-04-02T13:00:24.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
+    
+    
+    <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Readme</title>
+    <link href="https://wxac4f.github.io/2022/02/23/readme/"/>
+    <id>https://wxac4f.github.io/2022/02/23/readme/</id>
+    <published>2022-02-22T22:22:22.000Z</published>
+    <updated>2022-02-22T22:22:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Readme&quot;&gt;&lt;a href=&quot;#Readme&quot; class=&quot;headerlink&quot; title=&quot;Readme&quot;&gt;&lt;/a&gt;Readme&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;My English is not good. :(&lt;/li&gt;
+&lt;li&gt;If you find errors in the article or have suggestions, please contact the email address on the “About” page.</summary>
+    
+    
+    
+    <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
+    
+    
+    <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-文02</title>
+    <link href="https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-02/"/>
+    <id>https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-02/</id>
+    <published>2022-01-27T03:04:00.000Z</published>
+    <updated>2023-04-10T07:53:16.222Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;儿童客栈规则类怪谈&quot;&gt;&lt;a href=&quot;#儿童客栈规则类怪谈&quot; class=&quot;headerlink&quot; title=&quot;儿童客栈规则类怪谈&quot;&gt;&lt;/a&gt;儿童客栈规则类怪谈&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-文01</title>
+    <link href="https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-01/"/>
+    <id>https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-01/</id>
+    <published>2022-01-26T20:26:00.000Z</published>
+    <updated>2023-04-10T07:53:16.222Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;夏&quot;&gt;&lt;a href=&quot;#夏&quot; class=&quot;headerlink&quot; title=&quot;夏&quot;&gt;&lt;/a&gt;夏&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span </summary>
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决:SSL certificate problem unable to get local issuer certificate</title>
+    <link href="https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/"/>
+    <id>https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/</id>
+    <published>2021-11-10T12:50:21.000Z</published>
+    <updated>2021-11-10T12:50:21.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;错误:SSL certificate problem: unable to get local issuer certificate&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CAs,也就是说,它</summary>
+      
+    
+    
+    
+    <category term="OP" scheme="https://wxac4f.github.io/categories/OP/"/>
+    
+    
+    <category term="Git" scheme="https://wxac4f.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装Git并将其与Github连接</title>
+    <link href="https://wxac4f.github.io/2021/11/07/connect-git-with-github/"/>
+    <id>https://wxac4f.github.io/2021/11/07/connect-git-with-github/</id>
+    <published>2021-11-06T17:51:20.000Z</published>
+    <updated>2023-04-11T12:05:41.090Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;img data-src=&quot;/2021/11/07/connect-git-with-github/logo.png&quot; class=&quot;&quot;&gt;
+
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="OP" scheme="https://wxac4f.github.io/categories/OP/"/>
+    
+    <category term="Linux" scheme="https://wxac4f.github.io/categories/Linux/"/>
+    
+    <category term="Windows" scheme="https://wxac4f.github.io/categories/Windows/"/>
+    
+    
+    <category term="Github" scheme="https://wxac4f.github.io/tags/Github/"/>
+    
+    <category term="Git" scheme="https://wxac4f.github.io/tags/Git/"/>
+    
+  </entry>
+  
+</feed>
