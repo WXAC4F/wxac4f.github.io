@@ -6,7 +6,7 @@
   <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
   
   <link href="https://wxac4f.github.io/"/>
-  <updated>2023-04-10T07:53:16.329Z</updated>
+  <updated>2023-04-12T07:44:19.609Z</updated>
   <id>https://wxac4f.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo--解决因在标题中使用特殊符号造成的错误</title>
+    <link href="https://wxac4f.github.io/2023/04/12/hexo-solve-the-problem-of-using-special-symbols/"/>
+    <id>https://wxac4f.github.io/2023/04/12/hexo-solve-the-problem-of-using-special-symbols/</id>
+    <published>2023-04-12T14:56:42.000Z</published>
+    <updated>2023-04-12T07:44:19.609Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;偶然遇到这个问题&lt;br&gt;于是写篇文章记录一下 :)&lt;/p&gt;
+&lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
+    
+    <category term="Website" scheme="https://wxac4f.github.io/tags/Website/"/>
+    
+    <category term="Troubleshooting" scheme="https://wxac4f.github.io/tags/Troubleshooting/"/>
+    
+  </entry>
+  
+  <entry>
     <title>An1ao作品集-诗08</title>
     <link href="https://wxac4f.github.io/2023/03/25/collection-of-an1ao-poem-08/"/>
     <id>https://wxac4f.github.io/2023/03/25/collection-of-an1ao-poem-08/</id>
     <published>2023-03-25T15:45:00.000Z</published>
-    <updated>2023-04-10T07:53:16.329Z</updated>
+    <updated>2023-04-12T07:27:28.950Z</updated>
     
     
       
@@ -47,7 +74,7 @@
     <link href="https://wxac4f.github.io/2023/03/20/collection-of-shenmo-article-01/"/>
     <id>https://wxac4f.github.io/2023/03/20/collection-of-shenmo-article-01/</id>
     <published>2023-03-19T20:19:00.000Z</published>
-    <updated>2023-04-10T07:53:16.329Z</updated>
+    <updated>2023-04-12T07:27:16.035Z</updated>
     
     
       
@@ -73,7 +100,7 @@
     <link href="https://wxac4f.github.io/2022/11/19/can-not-login-e5-account/"/>
     <id>https://wxac4f.github.io/2022/11/19/can-not-login-e5-account/</id>
     <published>2022-11-18T23:10:33.000Z</published>
-    <updated>2023-04-11T19:08:34.207Z</updated>
+    <updated>2023-04-12T06:06:50.860Z</updated>
     
     
       
@@ -93,11 +120,11 @@
   </entry>
   
   <entry>
-    <title>树莓派修复WiFi 5Ghz频段无法使用的问题</title>
+    <title>树莓派修复Wi-Fi 5Ghz频段无法使用的问题</title>
     <link href="https://wxac4f.github.io/2022/11/15/rpi-fix-wifi-5ghz/"/>
     <id>https://wxac4f.github.io/2022/11/15/rpi-fix-wifi-5ghz/</id>
     <published>2022-11-14T20:04:06.000Z</published>
-    <updated>2023-04-11T19:07:40.864Z</updated>
+    <updated>2023-04-12T07:25:07.026Z</updated>
     
     
       
@@ -114,18 +141,18 @@
     
     <category term="Raspi" scheme="https://wxac4f.github.io/tags/Raspi/"/>
     
-    <category term="Raspberry Pi OS" scheme="https://wxac4f.github.io/tags/Raspberry-Pi-OS/"/>
+    <category term="Manjaro" scheme="https://wxac4f.github.io/tags/Manjaro/"/>
     
-    <category term="WiFi" scheme="https://wxac4f.github.io/tags/WiFi/"/>
+    <category term="Wi-Fi" scheme="https://wxac4f.github.io/tags/Wi-Fi/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo-记录一次故障排查的经过</title>
+    <title>Hexo--记录一次故障排查的经过</title>
     <link href="https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/"/>
     <id>https://wxac4f.github.io/2022/11/10/hexo-troubleshooting/</id>
     <published>2022-11-09T16:10:43.000Z</published>
-    <updated>2023-04-11T19:07:40.864Z</updated>
+    <updated>2023-04-12T07:05:01.015Z</updated>
     
     
       
@@ -143,6 +170,8 @@
     
     <category term="Website" scheme="https://wxac4f.github.io/tags/Website/"/>
     
+    <category term="Troubleshooting" scheme="https://wxac4f.github.io/tags/Troubleshooting/"/>
+    
   </entry>
   
   <entry>
@@ -150,7 +179,7 @@
     <link href="https://wxac4f.github.io/2022/08/25/collection-of-an1ao-poem-07/"/>
     <id>https://wxac4f.github.io/2022/08/25/collection-of-an1ao-poem-07/</id>
     <published>2022-08-25T02:45:00.000Z</published>
-    <updated>2023-04-10T07:53:16.329Z</updated>
+    <updated>2023-04-12T07:27:30.792Z</updated>
     
     
       
@@ -176,7 +205,7 @@
     <link href="https://wxac4f.github.io/2022/08/25/collection-of-an1ao-article-03/"/>
     <id>https://wxac4f.github.io/2022/08/25/collection-of-an1ao-article-03/</id>
     <published>2022-08-25T02:09:00.000Z</published>
-    <updated>2023-04-10T07:53:16.222Z</updated>
+    <updated>2023-04-12T07:27:48.863Z</updated>
     
     
       
@@ -198,7 +227,7 @@
   </entry>
   
   <entry>
-    <title>跳过Windows11 OOBE中的微软账户登录</title>
+    <title>跳过Windows11 OOBE中的微软账户登录与联网</title>
     <link href="https://wxac4f.github.io/2022/08/03/win11-offline-account/"/>
     <id>https://wxac4f.github.io/2022/08/03/win11-offline-account/</id>
     <published>2022-08-03T00:25:00.000Z</published>
@@ -364,7 +393,7 @@
     <link href="https://wxac4f.github.io/2022/04/18/collection-of-an1ao-poem-06/"/>
     <id>https://wxac4f.github.io/2022/04/18/collection-of-an1ao-poem-06/</id>
     <published>2022-04-17T19:54:00.000Z</published>
-    <updated>2023-04-10T07:53:16.329Z</updated>
+    <updated>2023-04-12T07:27:33.712Z</updated>
     
     
       
@@ -403,9 +432,9 @@
     <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
     
     
-    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
-    
     <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -419,16 +448,19 @@
     
     <summary type="html">&lt;h1 id=&quot;Readme&quot;&gt;&lt;a href=&quot;#Readme&quot; class=&quot;headerlink&quot; title=&quot;Readme&quot;&gt;&lt;/a&gt;Readme&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;My English is not good. :(&lt;/li&gt;
-&lt;li&gt;If you find errors in the article or have suggestions, please contact the email address on the “About” page.</summary>
+&lt;li&gt;If you find any mistakes or have suggestions,&lt;/li&gt;
+&lt;li&gt;Please contact the email address on the &lt;code&gt;About&lt;/code&gt; page.</summary>
     
     
     
     <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
     
     
+    <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
     <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
     
-    <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    <category term="Readme" scheme="https://wxac4f.github.io/tags/Readme/"/>
     
   </entry>
   
@@ -437,7 +469,7 @@
     <link href="https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-02/"/>
     <id>https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-02/</id>
     <published>2022-01-27T03:04:00.000Z</published>
-    <updated>2023-04-10T07:53:16.222Z</updated>
+    <updated>2023-04-12T07:27:52.414Z</updated>
     
     
       
@@ -463,7 +495,7 @@
     <link href="https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-01/"/>
     <id>https://wxac4f.github.io/2022/01/27/collection-of-an1ao-article-01/</id>
     <published>2022-01-26T20:26:00.000Z</published>
-    <updated>2023-04-10T07:53:16.222Z</updated>
+    <updated>2023-04-12T07:27:55.466Z</updated>
     
     
       
@@ -485,7 +517,7 @@
   </entry>
   
   <entry>
-    <title>解决:SSL certificate problem unable to get local issuer certificate</title>
+    <title>SSL certificate problem: unable to get local issuer certificate</title>
     <link href="https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/"/>
     <id>https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/</id>
     <published>2021-11-10T12:50:21.000Z</published>
@@ -496,43 +528,13 @@
       
     <summary type="html">&lt;p&gt;错误:SSL certificate problem: unable to get local issuer certificate&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CAs,也就是说,它</summary>
+&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CA,也就是说,它不</summary>
       
     
     
     
     <category term="OP" scheme="https://wxac4f.github.io/categories/OP/"/>
     
-    
-    <category term="Git" scheme="https://wxac4f.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装Git并将其与Github连接</title>
-    <link href="https://wxac4f.github.io/2021/11/07/connect-git-with-github/"/>
-    <id>https://wxac4f.github.io/2021/11/07/connect-git-with-github/</id>
-    <published>2021-11-06T17:51:20.000Z</published>
-    <updated>2023-04-11T19:09:58.274Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;img data-src=&quot;/2021/11/07/connect-git-with-github/logo.png&quot; class=&quot;&quot;&gt;
-
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="OP" scheme="https://wxac4f.github.io/categories/OP/"/>
-    
-    <category term="Linux" scheme="https://wxac4f.github.io/categories/Linux/"/>
-    
-    <category term="Windows" scheme="https://wxac4f.github.io/categories/Windows/"/>
-    
-    
-    <category term="Github" scheme="https://wxac4f.github.io/tags/Github/"/>
     
     <category term="Git" scheme="https://wxac4f.github.io/tags/Git/"/>
     
