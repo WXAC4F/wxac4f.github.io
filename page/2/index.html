@@ -601,7 +601,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://wxac4f.github.io/2022/08/03/win11-offline-account/">
+    <link itemprop="mainEntityOfPage" href="https://wxac4f.github.io/2022/08/03/win11-skip-networking-and-use-offline-account/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar_02.png">
@@ -619,7 +619,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/08/03/win11-offline-account/" class="post-title-link" itemprop="url">跳过Windows11 OOBE中的微软账户登录与联网</a>
+          <a href="/2022/08/03/win11-skip-networking-and-use-offline-account/" class="post-title-link" itemprop="url">跳过Windows11 OOBE中的微软账户登录与联网</a>
         </h2>
 
         <div class="post-meta-container">
@@ -659,7 +659,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <img data-src="/2022/08/03/win11-offline-account/Windows11.jpg" class="">
+          
 
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前Windows10首次开机的时候,也就是在OOBE阶段,只要不联网就能选择使用本地账户登录.<br>强制登录微软账户是微软在Windows11家庭版中增加的限制措施,专业版用户可以通过选项绕过从而重新创建本地账户.</p>
 <p>但近日,从Dev通道更新的22616版本开始,专业版也增加了此限制.<br>以个人身份创建账户时,如不登录微软账户,会发现无法继续设置下去.</p>
@@ -669,19 +669,19 @@
 </div>
 
 <h2 id="跳过联网与登录微软账户的方法"><a href="#跳过联网与登录微软账户的方法" class="headerlink" title="跳过联网与登录微软账户的方法"></a>跳过联网与登录微软账户的方法</h2><p>设置网络连接页面，打开命令窗口（按住<code>Shift+F10</code>,或<code>Fn+Shift+F10</code>）</p>
-<img data-src="/2022/08/03/win11-offline-account/step1.png" class="" title="步骤1">
+
 
 <p>在命令窗口输入<code>oobe\bypassnro.cmd</code>.按<code>Enter</code>键执行.</p>
 <div class="note warning"><p>此步骤会导致电脑重启</p>
 </div>
 
-<img data-src="/2022/08/03/win11-offline-account/step2.png" class="" title="步骤2">
+
 
 <p>系统重启后,可以看到在设置网络连接页面,多了”我没有Internet连接”选项.</p>
-<img data-src="/2022/08/03/win11-offline-account/step3.png" class="" title="步骤3">
+
 
 <p>点击”我没有Internet连接”</p>
-<img data-src="/2022/08/03/win11-offline-account/step4.png" class="" title="步骤4">
+
 
 <p>点击”继续执行受限设置”</p>
 <p>至此,恭喜你,<br>你已经成功跳过了联网步骤.<br>理论上你也跳过了登录微软账户登录这个步骤. :)</p>

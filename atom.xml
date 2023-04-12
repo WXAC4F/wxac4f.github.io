@@ -6,7 +6,7 @@
   <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
   
   <link href="https://wxac4f.github.io/"/>
-  <updated>2023-04-12T07:44:19.609Z</updated>
+  <updated>2023-04-12T12:59:00.414Z</updated>
   <id>https://wxac4f.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://wxac4f.github.io/2023/04/12/hexo-solve-the-problem-of-using-special-symbols/"/>
     <id>https://wxac4f.github.io/2023/04/12/hexo-solve-the-problem-of-using-special-symbols/</id>
     <published>2023-04-12T14:56:42.000Z</published>
-    <updated>2023-04-12T07:44:19.609Z</updated>
+    <updated>2023-04-12T12:59:00.414Z</updated>
     
     
       
@@ -228,17 +228,17 @@
   
   <entry>
     <title>跳过Windows11 OOBE中的微软账户登录与联网</title>
-    <link href="https://wxac4f.github.io/2022/08/03/win11-offline-account/"/>
-    <id>https://wxac4f.github.io/2022/08/03/win11-offline-account/</id>
+    <link href="https://wxac4f.github.io/2022/08/03/win11-skip-networking-and-use-offline-account/"/>
+    <id>https://wxac4f.github.io/2022/08/03/win11-skip-networking-and-use-offline-account/</id>
     <published>2022-08-03T00:25:00.000Z</published>
     <updated>2022-08-05T00:25:00.000Z</updated>
     
     
       
       
-    <summary type="html">&lt;img data-src=&quot;/2022/08/03/win11-offline-account/Windows11.jpg&quot; class=&quot;&quot;&gt;
+    <summary type="html">
 
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h</summary>
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;以前Windows10首次开机的时候,也就是在OOBE阶段,只要不联网就能选择使用本地账户登录.&lt;br&gt;强制登录微软账户是微软在Wind</summary>
       
     
     
