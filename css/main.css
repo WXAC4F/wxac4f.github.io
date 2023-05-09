@@ -2066,7 +2066,12 @@ pre code {
   font-size: 0.875em;
   margin-top: 1em;
   padding-top: 1em;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-like a {
+  border-bottom: none;
 }
 .reward-container {
   margin: 1em 0 0;

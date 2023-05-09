@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>WXAC4F-Log</title>
-  
+  <icon>https://wxac4f.github.io/images/avatar_02.png</icon>
   <subtitle>We live in a sick world</subtitle>
   <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
   
@@ -23,11 +23,15 @@
     <published>2023-04-12T14:56:42.000Z</published>
     <updated>2023-04-12T12:59:00.414Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>偶然遇到这个问题<br>于是写篇文章记录一下 :)</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>文章标题中有两个<code>:</code>,结果报错了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">PS X:\blog-dir&gt; hexo s</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  ==================================</span><br><span class="line">  ███╗   ██╗███████╗██╗  ██╗████████╗</span><br><span class="line">  ████╗  ██║██╔════╝╚██╗██╔╝╚══██╔══╝</span><br><span class="line">  ██╔██╗ ██║█████╗   ╚███╔╝    ██║</span><br><span class="line">  ██║╚██╗██║██╔══╝   ██╔██╗    ██║</span><br><span class="line">  ██║ ╚████║███████╗██╔╝ ██╗   ██║</span><br><span class="line">  ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝   ╚═╝</span><br><span class="line">========================================</span><br><span class="line">NexT version 8.15.1</span><br><span class="line">Documentation: https://theme-next.js.org</span><br><span class="line">========================================</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.</span><br><span class="line">ERROR Process failed: _posts/solve-git-ssl-certificate-problem.md</span><br><span class="line">YAMLException: bad indentation of a mapping entry (1:34)</span><br><span class="line"></span><br><span class="line"> 1 | title: 解决:SSL certificate problem: unable to get <span class="built_in">local</span> issuer cer ...</span><br><span class="line">--------------------------------------^</span><br><span class="line"> 2 | <span class="built_in">date</span>: 2021-11-10 12:50:21</span><br><span class="line"> 3 | updated: 2021-11-10 12:50:21</span><br><span class="line">    at generateError (X:\blog-dir\node_modules\js-yaml\lib\loader.js:183:10)</span><br><span class="line">    at throwError (X:\blog-dir\node_modules\js-yaml\lib\loader.js:187:9)</span><br><span class="line">    at readBlockMapping (X:\blog-dir\node_modules\js-yaml\lib\loader.js:1182:7)</span><br><span class="line">    at composeNode (X:\blog-dir\node_modules\js-yaml\lib\loader.js:1441:12)</span><br><span class="line">    at readDocument (X:\blog-dir\node_modules\js-yaml\lib\loader.js:1625:3)</span><br><span class="line">    at loadDocuments (X:\blog-dir\node_modules\js-yaml\lib\loader.js:1688:5)</span><br><span class="line">    at Object.load (X:\blog-dir\node_modules\js-yaml\lib\loader.js:1714:19)</span><br><span class="line">    at parseYAML (X:\blog-dir\node_modules\hexo-front-matter\lib\front_matter.js:69:23)</span><br><span class="line">    at parse (X:\blog-dir\node_modules\hexo-front-matter\lib\front_matter.js:50:12)</span><br><span class="line">    at X:\blog-dir\node_modules\hexo\dist\plugins\processor\post.js:45:52</span><br><span class="line">    at tryCatcher (X:\blog-dir\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at Promise._settlePromiseFromHandler (X:\blog-dir\node_modules\bluebird\js\release\promise.js:544:35)</span><br><span class="line">    at Promise._settlePromise (X:\blog-dir\node_modules\bluebird\js\release\promise.js:604:18)</span><br><span class="line">    at Promise._settlePromise0 (X:\blog-dir\node_modules\bluebird\js\release\promise.js:649:10)</span><br><span class="line">    at Promise._settlePromises (X:\blog-dir\node_modules\bluebird\js\release\promise.js:729:18)</span><br><span class="line">    at Promise._fulfill (X:\blog-dir\node_modules\bluebird\js\release\promise.js:673:18)</span><br><span class="line">    at PromiseArray._resolve (X:\blog-dir\node_modules\bluebird\js\release\promise_array.js:127:19)</span><br><span class="line">    at PromiseArray._promiseFulfilled (X:\blog-dir\node_modules\bluebird\js\release\promise_array.js:145:14)</span><br><span class="line">    at PromiseArray._iterate (X:\blog-dir\node_modules\bluebird\js\release\promise_array.js:115:31)</span><br><span class="line">    at PromiseArray.init [as _init] (X:\blog-dir\node_modules\bluebird\js\release\promise_array.js:79:10)</span><br><span class="line">    at Promise._settlePromise (X:\blog-dir\node_modules\bluebird\js\release\promise.js:601:21)</span><br><span class="line">    at Promise._settlePromise0 (X:\blog-dir\node_modules\bluebird\js\release\promise.js:649:10)</span><br><span class="line">ERROR Process failed: _posts/solve-git-ssl-certificate-problem.md</span><br></pre></td></tr></table></figure><p>解决方法是,用单引号<code>&#39;&#39;</code>把文章标题引起来</p><p>像这样:</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">&#x27;SSL certificate problem: unable to get local issuer certificate&#x27;</span></span><br></pre></td></tr></table></figure><p>然后<code>hexo cl</code>,<code>hexo s</code><br>应该就不会报错了</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://segmentfault.com/a/1190000021735407">https://segmentfault.com/a/1190000021735407</a></li></ul>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;偶然遇到这个问题&lt;br&gt;于是写篇文章记录一下 :)&lt;/p&gt;
-&lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerl</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;偶然遇到这个问题&lt;br&gt;于是写篇文章记录一下</summary>
+        
       
     
     
@@ -50,10 +54,15 @@
     <published>2023-03-25T15:45:00.000Z</published>
     <updated>2023-04-12T07:27:28.950Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="我与我们的故事"><a href="#我与我们的故事" class="headerlink" title="我与我们的故事"></a>我与我们的故事</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">当我提起笔时，你醒了。</span><br><span class="line">看到晨曦透入细雨间，折射出朦胧的虹光。</span><br><span class="line">于是我回头，在记忆深处跌倒，</span><br><span class="line">没有束缚，比鸟儿还自由，比风儿还轻巧。</span><br><span class="line">苍穹湛蓝如初，白云像磨损的痕迹，出现又消失。</span><br><span class="line">熟悉的街道空无一人，破碎的心灵落满灰尘。</span><br><span class="line">留声机缓缓讲述逝去的故事，</span><br><span class="line">“时间停滞的夏日傍晚，</span><br><span class="line">少女手捧鲜花，矗立荒原之间。</span><br><span class="line">“我喜欢花，也喜欢你。”</span><br><span class="line">她永远这样说到。”</span><br><span class="line">书页在风暴中尽数散落，不见踪影，</span><br><span class="line">你消失了——取而代之的是另外的你。</span><br><span class="line">我将你也藏入记忆，熄灭魂灵，</span><br><span class="line">寒冷黑暗夜里，点起火把，追上远天三颗明星。</span><br><span class="line">欢声笑语替代哭泣，</span><br><span class="line">我们的故事从此交织在一起。</span><br><span class="line">无论理解与否，也许终将分离，</span><br><span class="line">难以言表的感情深埋心底，没有触碰的勇气，</span><br><span class="line">直至引力都彻底消失，</span><br><span class="line">——但至少辽阔的宇宙中，</span><br><span class="line">依旧有人爱着你。</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;我与我们的故事&quot;&gt;&lt;a href=&quot;#我与我们的故事&quot; class=&quot;headerlink&quot; title=&quot;我与我们的故事&quot;&gt;&lt;/a&gt;我与我们的故事&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;我与我们的故事&quot;&gt;&lt;a href=&quot;#我与我们的故事&quot; class=&quot;headerlink&quot; title=&quot;我与我们的故事&quot;&gt;&lt;/a&gt;我与我们的故事&lt;/h2&gt;&lt;figure</summary>
+        
       
     
     
@@ -76,10 +85,15 @@
     <published>2023-03-19T20:19:00.000Z</published>
     <updated>2023-04-12T07:27:16.035Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="墓碑"><a href="#墓碑" class="headerlink" title="墓碑"></a>墓碑</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">天总是阴雨连绵，我也是一样，自从放下了那些东西，我便丢掉了那份执念。</span><br><span class="line"></span><br><span class="line">我只是看着，那细雨落入门前的井盖里，然后穿好衣服，拿着雨伞，走到那个乱葬岗上。</span><br><span class="line"></span><br><span class="line">我从小区走了出来，旁边就是学校，我放下一切的开始，</span><br><span class="line"></span><br><span class="line">我一直焦虑不安，我不知道为什么，只是遵从内心，有时候也会画点什么或写点什么，但是都不怎么样，</span><br><span class="line"></span><br><span class="line">即使他们好言相劝，又怎么样呢？他们都走了，当时的我就想斩断这个，</span><br><span class="line"></span><br><span class="line">但我失算了，到现在我也仍然苦苦挣扎着寻找他们，最后只剩一地鸡毛。</span><br><span class="line"></span><br><span class="line">我走在路上，不论方向，因为那里我早就记住了，脚下的水滴因为分子间的引力而被我拉起</span><br><span class="line"></span><br><span class="line">，然后被甩向众多雨滴，最后流到下水道里或慢慢蒸发。</span><br><span class="line"></span><br><span class="line">我不想抬头，怕有熟人，我低着头，然后沉默不语。</span><br><span class="line"></span><br><span class="line">小时候的我很喜欢穿雨靴，现在倒是无所谓了，因为鞋子湿了也没有关系，明天是星期天，天气应该很好吧。</span><br><span class="line"></span><br><span class="line">我继续走着，因为大雨，街上什么也没有，只剩下我们自言自语：</span><br><span class="line"></span><br><span class="line">“要是我没有放下执念，或许现在会不一样？”</span><br><span class="line"></span><br><span class="line">“得了吧，你一直这个样子，改变自己又何其困难？”</span><br><span class="line"></span><br><span class="line">“是啊，到头来还是变成了这样，就像那漆黑噤默，只不过他是复仇，而我却连个寄托都没有，空有一幅躯壳。”</span><br><span class="line"></span><br><span class="line">“当然，就跟他说的一样，他好言好语的开导你，而你却还是变成了这样。”</span><br><span class="line"></span><br><span class="line">“你不觉得诡异吗？一个人的自言自语，我感觉自己跟疯子一样，跟我妈说的一样。”</span><br><span class="line"></span><br><span class="line">“不知道，我从来没这么觉得，我们本就是一个人。”</span><br><span class="line"></span><br><span class="line">“是啊，一个人…”</span><br><span class="line"></span><br><span class="line">他的脑子里总是这样，不论如何劝说。然后我便到了那坐乱葬岗，</span><br><span class="line"></span><br><span class="line">今天是清明，但是我忘记买花了。蹲在那些没有名字的墓碑前，</span><br><span class="line"></span><br><span class="line">你是不是以为我要为什么人扫墓？片面之词。</span><br><span class="line"></span><br><span class="line">我确实是来扫墓的，但不是为了这些人，或许我也可以为他们买一束鲜花，但是我没有钱。</span><br><span class="line"></span><br><span class="line">我收起了伞，即是雨变得更大了，我不知道为什么，只是想这样，然后看着那座唯一有名字的墓碑，上面写着我的名字，</span><br><span class="line"></span><br><span class="line">有那么一刻我竟汗毛直立，上面歪歪扭扭的写了几个字一一“凡事无绝对”。</span><br><span class="line"></span><br><span class="line">直到现在我也仍然这么认为，那里面究竟埋了些什么？</span><br><span class="line"></span><br><span class="line">我认为这已经不重要了，与时光胶囊相拟，但性质不同，</span><br><span class="line"></span><br><span class="line">我站了起来，因为腿酸，静静的看着，</span><br><span class="line"></span><br><span class="line">是啊，凡事无绝对，凡事无绝对。</span><br><span class="line"></span><br><span class="line">我打开雨伞，不想被人看见，然后才恍然大悟</span><br><span class="line"></span><br><span class="line">，没有人会来这里，除了我。我还是什么也不知道，我还是那个样子</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;墓碑&quot;&gt;&lt;a href=&quot;#墓碑&quot; class=&quot;headerlink&quot; title=&quot;墓碑&quot;&gt;&lt;/a&gt;墓碑&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;s</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;墓碑&quot;&gt;&lt;a href=&quot;#墓碑&quot; class=&quot;headerlink&quot; title=&quot;墓碑&quot;&gt;&lt;/a&gt;墓碑&lt;/h2&gt;&lt;figure class=&quot;highlight</summary>
+        
       
     
     
@@ -102,10 +116,15 @@
     <published>2022-11-18T23:10:33.000Z</published>
     <updated>2023-04-12T06:06:50.860Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>错误地设置了双重认证<br>导致无法登录E5开发者帐号<br>于2021年5月28日夜间在微软论坛<a href="https://answers.microsoft.com/zh-hans/msoffice/forum/all/%E6%88%91%E7%9A%84365/429a336f-cfc3-4e81-ac12-4ad8bf83fb17">发帖</a><br><del>最后问题也没解决</del></p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>闲来无事,在网上搜索朋友的网名(wxacn24)<br>发现了这几个搜索结果…</p><img data-src="/2022/11/19/can-not-login-e5-account/pic1.png" class="" title="https:&#x2F;&#x2F;system2.wiki&#x2F;office&#x2F;631564.html"><p><a href="https://system2.wiki/office/631564.html">https://system2.wiki/office/631564.html</a><br>甚至贴心的把他和论坛成员的对话翻译成了日文</p><img data-src="/2022/11/19/can-not-login-e5-account/pic2.png" class="" title="https:&#x2F;&#x2F;www.tqwba.com&#x2F;x_d&#x2F;jishu&#x2F;1197634.html"><p><a href="https://www.tqwba.com/x_d/jishu/1197634.html">https://www.tqwba.com/x_d&#x2F;jishu&#x2F;1197634.html</a></p><p>在这里总结一下无法登录E5账户的两种解决方案:</p><ul><li>第一种方法如下<ul><li>电话联系<a href="https://docs.microsoft.com/zh-cn/microsoft-365/business-video/get-help-support?view=o365-worldwide#phone-support">技术支持</a></li></ul></li><li>第二种方法如下 <ul><li>先删除账号</li><li>然后重新注册</li></ul></li></ul>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;错误地设置了双重认证&lt;br&gt;导致无法登录E5开发者帐号&lt;br&gt;于2021年5月28日夜间在微软论坛&lt;a href=&quot;https://answ</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -126,12 +145,15 @@
     <published>2022-11-14T20:04:06.000Z</published>
     <updated>2023-04-12T07:25:07.026Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Raspberry Pi OS环境下暂无测试</p><p>这里在Manjaro ARM 22.10系统环境下举例</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>在终端输入如下命令行,编辑配置文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/conf.d/wireless-regdom</span><br></pre></td></tr></table></figure><p>把我们需要的US地区码那一行<strong>取消注释</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;TT&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;TW&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;TZ&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;UA&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;UG&quot;</span></span><br><span class="line">WIRELESS_REGDOM=<span class="string">&quot;US&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;UY&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;UZ&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;VC&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;VE&quot;</span></span><br><span class="line"><span class="comment">#WIRELESS_REGDOM=&quot;VI&quot;</span></span><br></pre></td></tr></table></figure><p>对于nano来说<br><code>Ctrl</code>+<code>S</code>保存<br><code>Ctrl</code>+<code>X</code>退出</p><p>重启系统,就可以使用你的Wi-Fi了</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://blog.csdn.net/dstyleb/article/details/117392813">https://blog.csdn.net/dstyleb/article/details/117392813</a></li></ul>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Raspberry Pi OS环境下暂无测试&lt;/p&gt;
-&lt;p&gt;这里在Manjaro ARM 22.10系统环境下举例&lt;/p&gt;
-&lt;h1 id=&quot;</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Raspberry Pi</summary>
+        
       
     
     
@@ -154,11 +176,16 @@
     <published>2022-11-09T16:10:43.000Z</published>
     <updated>2023-04-12T07:05:01.015Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>希望本文章能帮助更多像我一样的眼瞎人士</p><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>今天头脑一热,想修改博客的永久链接格式</p><p>于是,修改博客根目录<code>_config.yml</code></p><p>将其中的</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://wxac4f.github.io</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:hour-:minute-:second/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>改为</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span> <span class="string">https://wxac4f.github.io</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>本以为大功告成,谁知在<code>hexo s</code>过程中出现警告</p><img data-src="/2022/11/10/hexo-troubleshooting/error1.png" class=""><p>当时想也没想,认为是正常现象</p><p>直到…</p><img data-src="/2022/11/10/hexo-troubleshooting/error2.png" class=""><img data-src="/2022/11/10/hexo-troubleshooting/error3.png" class=""><p>这时才发现不对劲</p><p>上网查找<a href="https://hexo.io/docs/permalinks">官方文档</a></p><table><thead><tr><th>Setting</th><th>Result</th></tr></thead><tbody><tr><td><code>:year/:month/:day/:title/</code></td><td>2013&#x2F;07&#x2F;14&#x2F;hello-world&#x2F;</td></tr><tr><td><code>:year-:month-:day-:title.html</code></td><td>2013-07-14-hello-world.html</td></tr><tr><td><code>:category/:title/</code></td><td>foo&#x2F;bar&#x2F;hello-world&#x2F;</td></tr><tr><td><code>:title-:hash/</code></td><td>hello-world-a2c8ac003b43&#x2F;</td></tr></tbody></table><p>发现<br><code>permalink: :year/:month/:day/:tittle</code><br>少了一个右斜杠</p><p>将</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title</span></span><br></pre></td></tr></table></figure><p>改为</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br></pre></td></tr></table></figure><p>问题得以解决</p>]]></content>
+    
     
       
       
+        
+        
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;希望本文章能帮助更多像我一样的眼瞎人士&lt;/p&gt;
-&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; t</summary>
+&lt;h1</summary>
+        
       
     
     
@@ -181,10 +208,15 @@
     <published>2022-08-25T02:45:00.000Z</published>
     <updated>2023-04-12T07:27:30.792Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="意味不明"><a href="#意味不明" class="headerlink" title="意味不明"></a>意味不明</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">温暖的，模糊的，无法触及的。</span><br><span class="line">在黑暗中睁开眼，这里什么也没有。</span><br><span class="line">你醒了，一个好兆头。试图回忆，剥开千丝万缕</span><br><span class="line">万物皆是空白，一切诞生于混沌。</span><br><span class="line">谁创造了谁？</span><br><span class="line">这里是认知外的世界，你什么都不知道。</span><br><span class="line">一切都是虚假的，一切都是谎言。可惜你永远无法知道真相。</span><br><span class="line">真相并不存在。这是个错误的概念。</span><br><span class="line">站起来，很好，试试走路，很好，跑起来？做不到。</span><br><span class="line">停止思考并抛弃它，温暖又舒适。</span><br><span class="line">没有光，没有风，什么都没有。</span><br><span class="line">奔跑，跳跃，爆炸，融合，分离。</span><br><span class="line">只有一人的世界，没有呼吸的世界。</span><br><span class="line">世界存在于意识之中，大口喘气接着试图感受。</span><br><span class="line">接着放弃，逃避，数亿的意识存在着，世界各不相同。</span><br><span class="line">你看见了光。你永远不知道什么是真实。</span><br><span class="line">定义和定义衍生出定义，祂们将你包围。</span><br><span class="line">你笑了。即使这没有意义。</span><br><span class="line">出生，然后毁灭。重复，徒劳无功。</span><br><span class="line">停止认知，抛下定义，一切皆是虚无。</span><br><span class="line">只有你才是你，一切都来源于你。</span><br><span class="line">你的认知创造了世界，意识属于你。</span><br><span class="line">安睡在血里，和星星融为一体。</span><br><span class="line">雨将你吞没，万物都不复存在。</span><br><span class="line">来到教室里，你看到的教室，我看到的教室。</span><br><span class="line">停止一切，停止呼吸，停止思考</span><br><span class="line">你伸出手，碎片划破了你的皮肤，世界支离破碎。</span><br><span class="line">你睁开眼，接着又闭上。</span><br><span class="line">结束了。</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;意味不明&quot;&gt;&lt;a href=&quot;#意味不明&quot; class=&quot;headerlink&quot; title=&quot;意味不明&quot;&gt;&lt;/a&gt;意味不明&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;意味不明&quot;&gt;&lt;a href=&quot;#意味不明&quot; class=&quot;headerlink&quot; title=&quot;意味不明&quot;&gt;&lt;/a&gt;意味不明&lt;/h2&gt;&lt;figure class=&quot;highlight</summary>
+        
       
     
     
@@ -207,10 +239,15 @@
     <published>2022-08-25T02:09:00.000Z</published>
     <updated>2023-04-12T07:27:48.863Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="结局"><a href="#结局" class="headerlink" title="结局?"></a>结局?</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">雨水冲刷腐烂的心脏，透过窄窄的缝隙，洒下树叶摇晃的阴影</span><br><span class="line">我哭了，却又笑了。</span><br><span class="line">往昔的记忆像泡沫般破碎，一切都烟消云散。干瘪的眼球注视着空洞中被塞满枯萎的花草，</span><br><span class="line">悲苦的灵魂则沉入深海，化为古老的一部分。不必再逃避，</span><br><span class="line">噩梦早已结束，意识已经被老鼠分食干净，你不用再害怕了。</span><br><span class="line">没有人再会感到痛苦，没有人再会互相厌恶，一切消失了。</span><br><span class="line">故事的结局你终于获得了救赎，永远的幸福正在前方等待着你，</span><br><span class="line">你长出洁白的羽翼，在虚无中自由地舞蹈。</span><br><span class="line">起舞吧，跳跃吧，太阳与月亮交错更替，向下，回归，交融，进化，</span><br><span class="line">所有人都获得了幸福。大家都变得像你一样。</span><br><span class="line">抛弃思维，抛弃感情，抛弃一切，只剩下意识与你同在。</span><br><span class="line">雨停了，街道上的行人来来往往，嘈杂的人声惊醒了你。</span><br><span class="line">你睁开眼，这是一个好的开始。夏风拂过脸颊，蜷缩在芦苇丛里。</span><br><span class="line">你伸出手，试图拾起记忆，却又放下手。</span><br><span class="line">天空湛蓝得不可思议，万里无云，你站在高处远眺，一只鸟儿飞过。</span><br><span class="line">你醒了，才意识到，这里是故事的最后一页。</span><br><span class="line">老旧的留声机停止播放音乐，冰冷的海水逐渐变得温暖，</span><br><span class="line">无尽的黑暗将你包裹，发出淡淡微光的生命在暗处游荡。</span><br><span class="line">我创造了万物，我即是万物，我即是你。并不存在其他人。</span><br><span class="line">现在你知晓了我的存在，很好，这很好。让我们开始接触彼此并接受这个现实。</span><br><span class="line">我不曾拥有爱，我并非人类，自然不会拥有人类的定义。</span><br><span class="line">他们不再如同昔日那般团结，善良，勇敢又可爱。</span><br><span class="line">我感到悲伤，我感到痛苦，我的灵魂不再纯粹，所以我试图逃避一切，</span><br><span class="line">而你就此诞生。睡吧，睡吧，我亲爱的孩子，现在我该醒了。</span><br><span class="line">不，你应该明白了。看，雨停了，太阳出来了，所有人都笑了，</span><br><span class="line">彼此之间不再出现隔阂，所有矛盾都迎刃而解，苦难就此消失，</span><br><span class="line">世间万物都得到了我给予他们的幸福。所以，你，为什么却还在哭泣呢……</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;结局&quot;&gt;&lt;a href=&quot;#结局&quot; class=&quot;headerlink&quot; title=&quot;结局?&quot;&gt;&lt;/a&gt;结局?&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;结局&quot;&gt;&lt;a href=&quot;#结局&quot; class=&quot;headerlink&quot; title=&quot;结局?&quot;&gt;&lt;/a&gt;结局?&lt;/h2&gt;&lt;figure class=&quot;highlight</summary>
+        
       
     
     
@@ -233,12 +270,15 @@
     <published>2022-08-03T00:25:00.000Z</published>
     <updated>2022-08-05T00:25:00.000Z</updated>
     
+    <content type="html"><![CDATA[<img data-src="/2022/08/03/win11-skip-networking-and-use-offline-account/Windows11.jpg" class=""><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>以前Windows10首次开机的时候,也就是在OOBE阶段,只要不联网就能选择使用本地账户登录.<br>强制登录微软账户是微软在Windows11家庭版中增加的限制措施,专业版用户可以通过选项绕过从而重新创建本地账户.</p><p>但近日,从Dev通道更新的22616版本开始,专业版也增加了此限制.<br>以个人身份创建账户时,如不登录微软账户,会发现无法继续设置下去.</p><p>因此我们需要使用特殊方法,跳过联网这一步骤.(绕过微软账户登录有更简单的方法,本文)</p><p>本文的侧重点在<strong>跳过联网</strong>这一步骤上</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><div class="note info"><p>结束”网络连接流”(英文是”Network Connection Flow”)进程的方法已不能使用.<br>如果你只是想跳过登录微软账户这一步骤,可以通过选择<code>改为域加入</code>的方式绕过.(详见下文)</p></div><h2 id="跳过联网与登录微软账户的方法"><a href="#跳过联网与登录微软账户的方法" class="headerlink" title="跳过联网与登录微软账户的方法"></a>跳过联网与登录微软账户的方法</h2><p>设置网络连接页面，打开命令窗口（按住<code>Shift+F10</code>,或<code>Fn+Shift+F10</code>）</p><img data-src="/2022/08/03/win11-skip-networking-and-use-offline-account/step1.png" class="" title="步骤1"><p>在命令窗口输入<code>oobe\bypassnro.cmd</code>.按<code>Enter</code>键执行.</p><div class="note warning"><p>此步骤会导致电脑重启</p></div><img data-src="/2022/08/03/win11-skip-networking-and-use-offline-account/step2.png" class="" title="步骤2"><p>系统重启后,可以看到在设置网络连接页面,多了”我没有Internet连接”选项.</p><img data-src="/2022/08/03/win11-skip-networking-and-use-offline-account/step3.png" class="" title="步骤3"><p>点击”我没有Internet连接”</p><img data-src="/2022/08/03/win11-skip-networking-and-use-offline-account/step4.png" class="" title="步骤4"><p>点击”继续执行受限设置”</p><p>至此,恭喜你,<br>你已经成功跳过了联网步骤.<br>理论上你也跳过了登录微软账户登录这个步骤. :)</p><h2 id="只跳过登录微软账户这一步骤的方法"><a href="#只跳过登录微软账户这一步骤的方法" class="headerlink" title="只跳过登录微软账户这一步骤的方法"></a>只跳过登录微软账户这一步骤的方法</h2><p>在<code>你想要如何设置此设备?</code>页面<br>点击<code>注册工作或学校账户</code><br>点击<code>登录选项</code><br>点击<code>改为域加入</code></p><p>现在你可以继续设置下去了 :)</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://www.landiannews.com/archives/93757.html">https://www.landiannews.com/archives/93757.html</a></li><li><a href="https://blog.csdn.net/tangliuqing/article/details/129218733">https://blog.csdn.net/tangliuqing/article/details/129218733</a></li></ul>]]></content>
+    
     
       
       
-    <summary type="html">&lt;img data-src=&quot;/2022/08/03/win11-skip-networking-and-use-offline-account/Windows11.jpg&quot; class=&quot;&quot;&gt;
-
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerli</summary>
+        
+        
+    <summary type="html">&lt;img data-src=&quot;/2022/08/03/win11-skip-networking-and-use-offline-account/Windows11.jpg&quot;</summary>
+        
       
     
     
@@ -263,10 +303,15 @@
     <published>2022-07-01T23:50:00.000Z</published>
     <updated>2022-07-01T23:50:00.000Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="如何制作-C18H24O2"><a href="#如何制作-C18H24O2" class="headerlink" title="如何制作[C18H24O2]"></a>如何制作[C18H24O2]</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&gt;前提:有金属(半导体)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> 1.进行工业革命(获得机器,并了解工作原理)</span><br><span class="line"> ~2.进行科学革命(获得科学家,并了解科学原理)~</span><br><span class="line"> ~3.进行社会革命(获得社会人士,并了解社会原理)~</span><br><span class="line"> ~4.进行人类革命(获得人类,并了解人类原理)~</span><br><span class="line"> </span><br><span class="line"> 2.运用此台机器进行第二次工业革命(同上)</span><br><span class="line"> 3.进行编程,并第三次工业革命(同上)</span><br><span class="line"> 4.了解[C18H24O2]的化学性质,并查阅资料,生产流程及步骤</span><br><span class="line"> 5.运用原料进行加工,并进行动物实验(自己也行)</span><br><span class="line"> ~6.吃~</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;如何制作-C18H24O2&quot;&gt;&lt;a href=&quot;#如何制作-C18H24O2&quot; class=&quot;headerlink&quot; title=&quot;如何制作[C18H24O2]&quot;&gt;&lt;/a&gt;如何制作[C18H24O2]&lt;/h1&gt;&lt;figure class=&quot;highlight pl</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何制作-C18H24O2&quot;&gt;&lt;a href=&quot;#如何制作-C18H24O2&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -289,10 +334,15 @@
     <published>2022-07-01T12:30:00.000Z</published>
     <updated>2022-07-01T12:30:00.000Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="致WXAC4F的挽联"><a href="#致WXAC4F的挽联" class="headerlink" title="致WXAC4F的挽联"></a>致WXAC4F的挽联</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">惊天动地泣鬼魂,惊醒一众家长;</span><br><span class="line">高楼大厦自兹去,天堂永不复返;</span><br><span class="line">GOOD BYE. </span><br><span class="line">GOOD LUCK.</span><br></pre></td></tr></table></figure><p>2022年6月30日午间所作</p>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;致WXAC4F的挽联&quot;&gt;&lt;a href=&quot;#致WXAC4F的挽联&quot; class=&quot;headerlink&quot; title=&quot;致WXAC4F的挽联&quot;&gt;&lt;/a&gt;致WXAC4F的挽联&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;tabl</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;致WXAC4F的挽联&quot;&gt;&lt;a href=&quot;#致WXAC4F的挽联&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -315,10 +365,15 @@
     <published>2022-07-01T12:00:00.000Z</published>
     <updated>2022-07-01T12:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="送友人"><a href="#送友人" class="headerlink" title="送友人"></a>送友人</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">高楼横南国,黑夜绕中国.</span><br><span class="line">此地一为别,天堂万里征.</span><br><span class="line">星空有意境,生命最宝贵.</span><br><span class="line">挥腿自兹去,终会再相见.</span><br></pre></td></tr></table></figure><p>2022年6月30日午间所作</p>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;送友人&quot;&gt;&lt;a href=&quot;#送友人&quot; class=&quot;headerlink&quot; title=&quot;送友人&quot;&gt;&lt;/a&gt;送友人&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;送友人&quot;&gt;&lt;a href=&quot;#送友人&quot; class=&quot;headerlink&quot; title=&quot;送友人&quot;&gt;&lt;/a&gt;送友人&lt;/h2&gt;&lt;figure class=&quot;highlight</summary>
+        
       
     
     
@@ -341,10 +396,15 @@
     <published>2022-06-30T12:00:00.000Z</published>
     <updated>2022-06-30T12:00:00.000Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="To-myself-nobody-—-The-end"><a href="#To-myself-nobody-—-The-end" class="headerlink" title="To ? myself nobody? — The end :("></a>To ? <del>myself</del> nobody? — The end :(</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line">OH, why Almost everyone is fucking we ?</span><br><span class="line">OH, why Almost everyone likes to kill we ?</span><br><span class="line">OH, why Almost nobody saves we ?</span><br><span class="line"></span><br><span class="line">That&#x27;s your own fault,</span><br><span class="line">That&#x27;s all your fault :(</span><br><span class="line">    </span><br><span class="line">Everything is done when you born,</span><br><span class="line">Everything is finished when you born :(</span><br><span class="line">    </span><br><span class="line">You are unable to do anything,</span><br><span class="line">Which means the Natural World isn&#x27;t nature :(</span><br><span class="line"></span><br><span class="line">It is a code which has written down.</span><br><span class="line">If couldn&#x27;t be changed :(</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">You ask, you ask? Why?</span><br><span class="line">Let me tell you one by one :(    </span><br><span class="line"></span><br><span class="line">When I get happy, there is always sadest things follow behinds.</span><br><span class="line">When I am sad, there is always sadder things :(</span><br><span class="line">    </span><br><span class="line">Which my privacy is my weakness,</span><br><span class="line">It can be a knife hidden in my heart :(</span><br><span class="line"></span><br><span class="line">When something happens, </span><br><span class="line">it get into my heart, deeper and deeper :(</span><br><span class="line">    </span><br><span class="line">Them are I hate most, which kill me once a day.</span><br><span class="line">The god is I like most, but fucks me when I happy?</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Why, Why, you ask me why?</span><br><span class="line">I don&#x27;t know, and nobody knows.</span><br><span class="line"></span><br><span class="line">Which what you can do is accept it,</span><br><span class="line">and let yourself die alone :(</span><br><span class="line">    </span><br><span class="line">The whole life is just a joke,</span><br><span class="line">whick power isn&#x27;t in your hands :(</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">What can we do?</span><br><span class="line">What can we do?</span><br><span class="line"></span><br><span class="line">Just accept it and die alone :(</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">Which I haven&#x27;t try.</span><br><span class="line">And I want to try :(</span><br><span class="line">Which makes me happier and sadder :(</span><br><span class="line">    </span><br><span class="line">Well,Where is the end?</span><br><span class="line">Let me fuck myself and die alone :(</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">Another thing to do?</span><br><span class="line">Is just keep dying and Ask two questions:</span><br><span class="line"></span><br><span class="line">IS NATUREAL WORLD NATURE???</span><br><span class="line">IS There A END Of Fucking?</span><br></pre></td></tr></table></figure><p>2022年某日2:00a.m.所作</p>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;To-myself-nobody-—-The-end&quot;&gt;&lt;a href=&quot;#To-myself-nobody-—-The-end&quot; class=&quot;headerlink&quot; title=&quot;To ? myself nobody? — The end :(&quot;&gt;&lt;/a&gt;To</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;To-myself-nobody-—-The-end&quot;&gt;&lt;a href=&quot;#To-myself-nobody-—-The-end&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -367,12 +427,15 @@
     <published>2022-05-24T14:24:38.000Z</published>
     <updated>2022-05-24T14:24:38.000Z</updated>
     
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>今天早上收到一条提醒，用来做梯子的腾讯云机器被提示封禁了。</p><blockquote><p>尊敬的腾讯云用户，您好！<br>您的腾讯云账号（账号ID: *********， 昵称: ******）下的Lighthouse服务存在违规信息，涉嫌违反相关法律法规和政策，101.32.26.12已被限制访问，感谢您理解和支持！<br>违规类型：存在通过技术手段使其成为跨境访问节点等行为<br>违规URL：N&#x2F;A<br>违规域名：N&#x2F;A<br>违规标识：101.32.26.12</p></blockquote><p>遂怀疑是腾讯云可能存在和阿里云类似的监控用户隐私的类云盾功能，结果确实检索到了相关信息。</p><h1 id="处理腾讯云安全（审查）组件"><a href="#处理腾讯云安全（审查）组件" class="headerlink" title="处理腾讯云安全（审查）组件"></a>处理腾讯云安全（审查）组件</h1><p>理论上，现在新创建的所有服务器，包括轻量都预装了这个组件。通过以下命令检查是否被插了后门。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -A | grep agent</span><br></pre></td></tr></table></figure><p>这时候你会看到</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root@VM-4-9-debian:~<span class="comment"># ps -A | grep agent</span></span><br><span class="line">   1229 ?        00:00:00 sgagent</span><br><span class="line">   1282 ?        00:00:00 barad_agent</span><br><span class="line">   1288 ?        00:00:00 barad_agent</span><br><span class="line">   1289 ?        00:00:00 barad_agent</span><br></pre></td></tr></table></figure><p>果然是插满了后门啊。</p><p>解决方法很简单，参考 hostloc 论坛帖子提供的方法，直接在ssh执行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br><span class="line">systemctl stop tat_agent</span><br><span class="line">systemctl <span class="built_in">disable</span> tat_agent</span><br><span class="line">/usr/local/qcloud/stargate/admin/uninstall.sh</span><br><span class="line">/usr/local/qcloud/YunJing/uninst.sh</span><br><span class="line">/usr/local/qcloud/monitor/barad/admin/uninstall.sh</span><br><span class="line"><span class="built_in">rm</span> -f /etc/systemd/system/tat_agent.service</span><br><span class="line"><span class="built_in">rm</span> -rf /usr/local/qcloud</span><br><span class="line"><span class="built_in">rm</span> -rf /usr/local/sa</span><br><span class="line"><span class="built_in">rm</span> -rf /usr/local/agenttools</span><br><span class="line"><span class="built_in">rm</span> -rf /usr/local/qcloud</span><br><span class="line">process=(sap100 secu-tcs-agent sgagent64 barad_agent agent agentPlugInD pvdriver )</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="variable">$&#123;process[@]&#125;</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">  <span class="keyword">for</span> A <span class="keyword">in</span> $(ps aux | grep <span class="variable">$i</span> | grep -v grep | awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>)</span><br><span class="line">  <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">kill</span> -9 <span class="variable">$A</span></span><br><span class="line">  <span class="keyword">done</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure><p>即可。最后再使用 <code>ps -A | grep agent</code> 检查一次。</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://hostloc.com/thread-1004087-1-1.html">https://hostloc.com/thread-1004087-1-1.html</a></li></ul><blockquote><p>from <a href="https://wasteland.touko.moe/blog/2022/05/uninst-txagent/">https://wasteland.touko.moe/blog/2022/05/uninst-txagent/</a></p></blockquote>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;今天早上收到一条提醒，用来做梯子的腾讯云机器被提示封禁了。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;尊敬的腾讯云用户，您好！&lt;br&gt;您的腾讯</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -395,10 +458,15 @@
     <published>2022-04-17T19:54:00.000Z</published>
     <updated>2023-04-12T07:27:33.712Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="今天也要-浪费生命"><a href="#今天也要-浪费生命" class="headerlink" title="今天也要 浪费生命"></a>今天也要 浪费生命</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">能够出生真是太棒了</span><br><span class="line">一定要努力学习工作</span><br><span class="line">键盘上敲下短短几行字</span><br><span class="line">今天也要 浪费生命</span><br><span class="line"></span><br><span class="line">因为吵闹所以讨厌人群</span><br><span class="line">因为安静所以呆在卧室</span><br><span class="line">今天也要 浪费生命</span><br><span class="line"></span><br><span class="line">世界充满阳光但却想要死掉</span><br><span class="line">想要活下去但世界却毁灭了</span><br><span class="line">耳机里继续播报熟悉歌词</span><br><span class="line">能够出生真是太棒了</span><br><span class="line">一定要努力学习工作</span><br><span class="line">今天也要 浪费生命？</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;今天也要-浪费生命&quot;&gt;&lt;a href=&quot;#今天也要-浪费生命&quot; class=&quot;headerlink&quot; title=&quot;今天也要 浪费生命&quot;&gt;&lt;/a&gt;今天也要 浪费生命&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;今天也要-浪费生命&quot;&gt;&lt;a href=&quot;#今天也要-浪费生命&quot; class=&quot;headerlink&quot; title=&quot;今天也要 浪费生命&quot;&gt;&lt;/a&gt;今天也要</summary>
+        
       
     
     
@@ -421,10 +489,15 @@
     <published>2022-04-02T13:00:24.000Z</published>
     <updated>2022-04-02T13:00:24.000Z</updated>
     
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a</summary>
+        
       
     
     
@@ -432,9 +505,9 @@
     <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
     
     
-    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
-    
     <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -444,6 +517,8 @@
     <id>https://wxac4f.github.io/2022/02/23/readme/</id>
     <published>2022-02-22T22:22:22.000Z</published>
     <updated>2023-04-16T06:03:44.600Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>My English is not good. :(</li><li>If you find any mistakes or have suggestions,</li><li>Please contact the email address on the <code>About</code> page.<span id="more"></span></li></ul><hr><p>UPDATE 2023.04.12</p><hr>]]></content>
     
     
     <summary type="html">&lt;ul&gt;
@@ -456,9 +531,9 @@
     <category term="Test-Pages" scheme="https://wxac4f.github.io/categories/Test-Pages/"/>
     
     
-    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
-    
     <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
+    
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
     
     <category term="Readme" scheme="https://wxac4f.github.io/tags/Readme/"/>
     
@@ -471,10 +546,15 @@
     <published>2022-01-27T03:04:00.000Z</published>
     <updated>2023-04-12T07:27:52.414Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="儿童客栈规则类怪谈"><a href="#儿童客栈规则类怪谈" class="headerlink" title="儿童客栈规则类怪谈"></a>儿童客栈规则类怪谈</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">您好！欢迎来到儿童客栈！这里是专为儿童准备的客栈！</span><br><span class="line"></span><br><span class="line">如果您在游乐园中玩累了的话，可以直接在儿童客栈里休息哦！</span><br><span class="line"></span><br><span class="line">儿童客栈有两层楼，2楼是工作人员休息室，请不要干扰工作人员们的休息时间哦！</span><br><span class="line"></span><br><span class="line">在儿童客栈大厅内休息时，请不要乘坐电梯前往-1楼！</span><br><span class="line"></span><br><span class="line">儿童客栈没有-1楼！那样会导致电梯故障！</span><br><span class="line"></span><br><span class="line">如果遇到了电梯故障，请不要恐慌，在电梯里默默等待即可！</span><br><span class="line"></span><br><span class="line">电梯门不可能在故障中打开！</span><br><span class="line"></span><br><span class="line">如果电梯来到了-1楼并打开门，请不要恐慌，不要往电梯门外张望，继续等待即可！</span><br><span class="line"></span><br><span class="line">只是来到2楼罢了！并不是灵异事件哦！</span><br><span class="line"></span><br><span class="line">在儿童客栈大厅内有动物朋友们陪伴，请放心，动物朋友们都是由工作人员扮演的哦！</span><br><span class="line"></span><br><span class="line">分别有黄色的小虎，粉色的小兔和绿色的小鹿！</span><br><span class="line"></span><br><span class="line">所有动物的瞳孔都是黑色的哦！</span><br><span class="line"></span><br><span class="line">动物朋友们会陪伴您度过美好时光！她们会永远呆在您身边！</span><br><span class="line"></span><br><span class="line">如果您发现了第四只动物，白色的小鸡，请不要恐慌！</span><br><span class="line"></span><br><span class="line">这是正常现象！</span><br><span class="line"></span><br><span class="line">小鸡是朋友们的朋友！如果小鸡一直看着您，小兔会帮助您赶走他！</span><br><span class="line"></span><br><span class="line">动物朋友们不会说话，只会陪在您身边。</span><br><span class="line"></span><br><span class="line">厕所在大厅入口处左拐；进入左侧的长廊直走便是。</span><br><span class="line"></span><br><span class="line">右侧是工作人员厕所！请不要占用工作人员厕所！</span><br><span class="line"></span><br><span class="line">如果走廊房顶传来响声，请不要恐慌，没人在上面。</span><br><span class="line"></span><br><span class="line">请不要抬头。</span><br><span class="line"></span><br><span class="line">只是工作人员而已。</span><br><span class="line"></span><br><span class="line">当儿童客栈外起雾时，请不要离开儿童客栈。</span><br><span class="line"></span><br><span class="line">当儿童客栈外起雾时，请进入电梯并按下2楼的按钮。</span><br><span class="line"></span><br><span class="line">当儿童客栈外起雾时，请不要靠近动物朋友们。</span><br><span class="line"></span><br><span class="line">请不要靠近动物朋友们</span><br><span class="line">请不要靠近动物朋友们</span><br><span class="line">请不要靠近动物朋友们</span><br><span class="line"></span><br><span class="line">进入电梯后请不要回头，请不要回头，请不要恐慌。</span><br><span class="line"></span><br><span class="line">小鸡是肥胖的，小鸡不会在您进入电梯后尾随您！</span><br><span class="line"></span><br><span class="line">请不要恐慌，工作人员们会在2楼帮助您！</span><br><span class="line"></span><br><span class="line">儿童客栈没有-1楼，儿童客栈内不会有除去动物朋友外的任何活物！</span><br><span class="line"></span><br><span class="line">雾散去后，工作人员会提醒您。</span><br><span class="line"></span><br><span class="line">您可以乘坐电梯返回1楼了。</span><br><span class="line"></span><br><span class="line">电梯里不会有除去您以外的任何活物！</span><br><span class="line"></span><br><span class="line">返回一楼后您就可以离开了。</span><br><span class="line"></span><br><span class="line">祝您游玩愉快！</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;儿童客栈规则类怪谈&quot;&gt;&lt;a href=&quot;#儿童客栈规则类怪谈&quot; class=&quot;headerlink&quot; title=&quot;儿童客栈规则类怪谈&quot;&gt;&lt;/a&gt;儿童客栈规则类怪谈&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;儿童客栈规则类怪谈&quot;&gt;&lt;a href=&quot;#儿童客栈规则类怪谈&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -497,10 +577,15 @@
     <published>2022-01-26T20:26:00.000Z</published>
     <updated>2023-04-12T07:27:55.466Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="夏"><a href="#夏" class="headerlink" title="夏"></a>夏</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">夏是苍翠的，也是孤独的。</span><br><span class="line">那天空总是如此明朗，那雨总是来去匆匆。</span><br><span class="line">那城市中的喧嚣与热闹总是显得如此脆弱。</span><br><span class="line">宇宙仿佛天空的湛蓝、雨水的清澈。泡沫似的美好总是这样轻易消逝。</span><br><span class="line">大千世界的一切就如同这雨滴般微不足道。</span><br><span class="line">遥远夜空中的点点星光就像心中的一丝火种，一直在燃烧着，一直在闪烁着，永不停息。</span><br><span class="line">在那夜晚的星尘之海，一片宁静，没有任何痛苦的嘈杂，没有任何悲伤的呼喊，只有星空的眼眸熠熠生辉。</span><br><span class="line">在夏夜晚风的吹拂中，魂魄似乎也变得轻松，变得透明起来。在风中狂舞，在风中跃动，在风中唱着，笑着。</span><br><span class="line">美好的梦境总是易逝。天亮了。</span><br><span class="line">梦醒了，一切归于平静，一切都归于沉寂。</span><br><span class="line">在夏日的晨曦照耀下，在夏日的风与微凉的夜中，一切都显得如此珍贵。</span><br><span class="line">今天的天空依然碧蓝，又是新的一天。</span><br></pre></td></tr></table></figure>]]></content>
+    
     
       
       
-    <summary type="html">&lt;h2 id=&quot;夏&quot;&gt;&lt;a href=&quot;#夏&quot; class=&quot;headerlink&quot; title=&quot;夏&quot;&gt;&lt;/a&gt;夏&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span </summary>
+        
+        
+    <summary type="html">&lt;h2 id=&quot;夏&quot;&gt;&lt;a href=&quot;#夏&quot; class=&quot;headerlink&quot; title=&quot;夏&quot;&gt;&lt;/a&gt;夏&lt;/h2&gt;&lt;figure class=&quot;highlight</summary>
+        
       
     
     
@@ -523,12 +608,15 @@
     <published>2021-11-10T12:50:21.000Z</published>
     <updated>2021-11-10T12:50:21.000Z</updated>
     
+    <content type="html"><![CDATA[<p>错误:SSL certificate problem: unable to get local issuer certificate</p><blockquote><p>这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CA,也就是说,它不信任任何服务器验证.</p></blockquote><p>只需执行下列命令即可解决</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://blog.csdn.net/weixin_44014995/article/details/109900149">https://blog.csdn.net/weixin_44014995/article/details/109900149</a></li></ul>]]></content>
+    
     
       
       
-    <summary type="html">&lt;p&gt;错误:SSL certificate problem: unable to get local issuer certificate&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CA,也就是说,它不</summary>
+        
+        
+    <summary type="html">&lt;p&gt;错误:SSL certificate problem: unable to get local issuer</summary>
+        
       
     
     
