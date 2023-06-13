@@ -6,14 +6,13 @@ Allow: /tags/
 Allow: /about/
 Allow: /page/
 Disallow: /anomaly/
-Disallow: /changlog/
+Disallow: /changelog/
 Disallow: /myself/
 Disallow: /real-about/
 Disallow: /music/
 Disallow: /images/ 
 Disallow: /the-start/
 Disallow: /the-start-next/
-Disallow: /how-to-ask-questions-the-smart-way/
 Disallow: /404/
 Disallow: /404.html
 Sitemap: https://wxac4f.github.io/sitemap.xml
