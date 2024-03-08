@@ -6,7 +6,7 @@
   <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
   
   <link href="https://wxac4f.github.io/"/>
-  <updated>2023-04-12T12:59:02.000Z</updated>
+  <updated>2024-03-08T11:37:48.000Z</updated>
   <id>https://wxac4f.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BLACK_SPACE_00</title>
+    <link href="https://wxac4f.github.io/2024/03/09/BLACK-SPACE-00/"/>
+    <id>https://wxac4f.github.io/2024/03/09/BLACK-SPACE-00/</id>
+    <published>2024-03-08T17:28:30.000Z</published>
+    <updated>2024-03-08T11:37:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>WIP.</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;WIP.&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="Art" scheme="https://wxac4f.github.io/categories/Art/"/>
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Art/Literature/"/>
+    
+    
+    <category term="Genshin" scheme="https://wxac4f.github.io/tags/Genshin/"/>
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/tags/Logs/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo--解决因在标题中使用特殊符号造成的错误</title>
@@ -598,33 +630,6 @@
     <category term="Essays" scheme="https://wxac4f.github.io/tags/Essays/"/>
     
     <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSL certificate problem: unable to get local issuer certificate</title>
-    <link href="https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/"/>
-    <id>https://wxac4f.github.io/2021/11/10/solve-git-ssl-certificate-problem/</id>
-    <published>2021-11-10T12:50:21.000Z</published>
-    <updated>2021-11-10T12:50:21.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>错误:SSL certificate problem: unable to get local issuer certificate</p><blockquote><p>这个问题是由于没有配置信任的服务器HTTPS验证.默认,cURL被设为不信任任何CA,也就是说,它不信任任何服务器验证.</p></blockquote><p>只需执行下列命令即可解决</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><a href="https://blog.csdn.net/weixin_44014995/article/details/109900149">https://blog.csdn.net/weixin_44014995/article/details/109900149</a></li></ul>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;错误:SSL certificate problem: unable to get local issuer</summary>
-        
-      
-    
-    
-    
-    <category term="OP" scheme="https://wxac4f.github.io/categories/OP/"/>
-    
-    
-    <category term="Git" scheme="https://wxac4f.github.io/tags/Git/"/>
     
   </entry>
   
