@@ -3,7 +3,8 @@ Allow: /
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/
-Allow: /about/
+Allow: /about-me/
+Allow: /about-site/
 Allow: /page/
 Disallow: /anomaly/
 Disallow: /changelog/
