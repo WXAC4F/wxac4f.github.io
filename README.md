@@ -4,4 +4,3 @@
 * Please contact the email address on the page "About".
 ***
 UPDATE 2024.03.27
-***
