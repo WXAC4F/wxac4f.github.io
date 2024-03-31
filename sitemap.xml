@@ -469,7 +469,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/2nd-OF-2022/</loc>
+    <loc>https://wxac4f.github.io/tags/Summer/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -483,7 +483,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Summer/</loc>
+    <loc>https://wxac4f.github.io/tags/2nd-OF-2022/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -658,20 +658,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Test/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Hello-World/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Hexo/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -687,6 +673,20 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Sitemap/</loc>
+    <lastmod>2024-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Test/</loc>
+    <lastmod>2024-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Hello-World/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -798,20 +798,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/VPS/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Website/</loc>
-    <lastmod>2024-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Router/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -834,6 +820,20 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Unlock/</loc>
+    <lastmod>2024-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/VPS/</loc>
+    <lastmod>2024-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Website/</loc>
     <lastmod>2024-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
