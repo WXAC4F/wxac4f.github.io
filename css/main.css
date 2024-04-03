@@ -1910,6 +1910,10 @@ pre code {
   border-bottom: 0;
   color: var(--link-color);
 }
+.posts-collapse .post-content .post-title .fa {
+  font-size: 0.875em;
+  margin-left: 5px;
+}
 .posts-collapse .post-content::before {
   background: #f5f5f5;
   content: ' ';
