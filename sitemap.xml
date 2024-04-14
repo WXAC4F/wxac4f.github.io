@@ -486,14 +486,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/1st-OF-2022/</loc>
+    <loc>https://wxac4f.github.io/tags/DYT/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/DYT/</loc>
+    <loc>https://wxac4f.github.io/tags/1st-OF-2022/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -794,20 +794,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/USB/</loc>
-    <lastmod>2024-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Thunderbolt/</loc>
-    <lastmod>2024-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Router/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -830,6 +816,20 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Unlock/</loc>
+    <lastmod>2024-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/USB/</loc>
+    <lastmod>2024-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Thunderbolt/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
