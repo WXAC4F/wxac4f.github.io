@@ -370,7 +370,8 @@ td {
   left: 0;
   position: relative;
   top: 0;
-  transition: all 0.4s;
+  transition: 0.4s;
+  transition-property: left, opacity, top, transform, width;
   width: 100%;
 }
 .toggle .toggle-line:first-child {
@@ -518,29 +519,6 @@ code.hljs {
 .hljs-tag {
   /* purposely ignored */
   
-}
-.highlight:hover .copy-btn,
-.code-container:hover .copy-btn {
-  opacity: 1;
-}
-.code-container {
-  position: relative;
-}
-.copy-btn {
-  color: #333;
-  cursor: pointer;
-  line-height: 1.6;
-  opacity: 0;
-  padding: 2px 6px;
-  position: absolute;
-  transition: opacity 0.2s ease-in-out;
-  background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eee);
-  border: 1px solid #d5d5d5;
-  border-radius: 3px;
-  font-size: 0.8125em;
-  right: 4px;
-  top: 8px;
 }
 .expand-btn {
   bottom: 0;
@@ -1348,7 +1326,8 @@ pre code {
     overflow-y: auto;
     position: fixed;
     top: 0;
-    transition: all 0.2s ease-out;
+    transition: 0.2s ease-out;
+    transition-property: left, right;
     width: 320px;
     z-index: 20;
   }
@@ -1371,7 +1350,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #60e0ff;
+    background: #cd44ed;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1815,7 +1794,8 @@ pre code {
   color: #fff;
   display: flex;
   height: 26px;
-  transition: bottom 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  transition-property: bottom;
   background: #222;
   cursor: pointer;
   opacity: 0.6;
@@ -2327,7 +2307,6 @@ pre code {
   border: 2px solid #fc6423;
   border-radius: 2px;
   outline: 0;
-  transition: all 0.2s ease-in-out;
   vertical-align: text-top;
 }
 .reward-container button:hover {
@@ -2642,6 +2621,12 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
+mark.search-keyword {
+  background: transparent;
+  border-bottom: 1px dashed #ff2a2a;
+  color: #ff2a2a;
+  font-weight: bold;
+}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
@@ -2766,6 +2751,7 @@ header.header {
 }
 .menu .menu-item a {
   padding: 5px 20px;
+  position: relative;
   transition-property: background-color;
   display: flex;
   align-items: center;
