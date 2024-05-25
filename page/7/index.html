@@ -91,7 +91,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fab fa-wpexplorer fa-fw"></i>About</a></li><li class="menu-item menu-item-site"><a href="/about-site/" rel="section"><i class="fa fa-wheelchair-alt fa-fw"></i>Site</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">75</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">13</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">33</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fab fa-wpexplorer fa-fw"></i>About</a></li><li class="menu-item menu-item-site"><a href="/about-site/" rel="section"><i class="fa fa-wheelchair-alt fa-fw"></i>Site</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">68</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">13</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">32</span></a></li>
   </ul>
 </nav>
 
@@ -130,7 +130,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -141,7 +141,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">75</span>
+        <span class="site-state-item-count">68</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -184,111 +184,6 @@
     </div>
 
     <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://wxac4f.github.io/2021/01/01/install-cuda-on-ubuntu/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar_03.png">
-      <meta itemprop="name" content="WXAC4F">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="WXAC4F-Log">
-      <meta itemprop="description" content="但愿千年百年前,<br>主曾与我仰望同一方夜空.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | WXAC4F-Log">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/01/01/install-cuda-on-ubuntu/" class="post-title-link" itemprop="url">在 Ubuntu 上安装 CUDA</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2020-12-31 19:59:48" itemprop="dateCreated datePublished" datetime="2020-12-31T19:59:48Z">2020-12-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Reposts/" itemprop="url" rel="index"><span itemprop="name">Reposts</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>老是忘记怎么在 Ubuntu 上安装 CUDA，每次有新机器都要在环境恶劣的互联网上寻找各种不靠谱又容易炸的教程。还是简单做个总结，关于如何安装炼丹人必备的依赖 <code>CUDA</code>。</p>
-<h2 id="一些链接"><a href="#一些链接" class="headerlink" title="一些链接"></a>一些链接</h2><ul>
-<li>CUDA GPU Capability <a target="_blank" rel="noopener" href="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a></li>
-<li>CUDA Zone <a target="_blank" rel="noopener" href="https://developer.nvidia.com/CUDA-zone">https://developer.nvidia.com/CUDA-zone</a></li>
-</ul>
-<h1 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h1><h2 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h2><p>先看看机器的版本号啥的</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo lsb_release -a</span><br><span class="line"></span><br><span class="line">No LSB modules are available.</span><br><span class="line">Distributor ID: Ubuntu</span><br><span class="line">Description:    Ubuntu 18.04.2 LTS</span><br><span class="line">Release:        18.04</span><br><span class="line">Codename:       bionic</span><br></pre></td></tr></table></figure>
-
-<p>再看看显卡在不在</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lspci | grep NVIDIA</span><br><span class="line"></span><br><span class="line">18:00.0 3D controller: NVIDIA Corporation Device 1eb8 (rev a1)</span><br><span class="line">af:00.0 3D controller: NVIDIA Corporation Device 1eb8 (rev a1)</span><br></pre></td></tr></table></figure>
-
-<p>再换个源。机器在深圳，用科大了</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i <span class="string">&#x27;s/archive.ubuntu.com/mirrors.ustc.edu.cn/g&#x27;</span> /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="Step-1：安装-ubuntu-drivers-并配置驱动"><a href="#Step-1：安装-ubuntu-drivers-并配置驱动" class="headerlink" title="Step 1：安装 ubuntu-drivers 并配置驱动"></a>Step 1：安装 <code>ubuntu-drivers</code> 并配置驱动</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install ubuntu-drivers-common -y</span><br></pre></td></tr></table></figure>
-
-<p>运行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">ubuntu-drivers devices</span><br><span class="line"></span><br><span class="line">== /sys/devices/pci0000:17/0000:17:00.0/0000:18:00.0 ==</span><br><span class="line">modalias : pci:balabalabala</span><br><span class="line">vendor   : NVIDIA Corporation</span><br><span class="line">driver   : nvidia-driver-440-server - distro non-free</span><br><span class="line">driver   : nvidia-driver-450-server - distro non-free</span><br><span class="line">driver   : nvidia-driver-455 - distro non-free recommended</span><br><span class="line">driver   : nvidia-driver-450 - distro non-free</span><br><span class="line">driver   : nvidia-driver-418-server - distro non-free</span><br><span class="line">driver   : xserver-xorg-video-nouveau - distro free <span class="built_in">builtin</span></span><br></pre></td></tr></table></figure>
-
-<p>装那个 recommended 的</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nvidia-driver-455</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/01/01/install-cuda-on-ubuntu/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
 
     
 
