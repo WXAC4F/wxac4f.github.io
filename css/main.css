@@ -221,7 +221,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -234,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Serif, Noto Serif SC, Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -582,7 +582,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  font-family: Roboto Mono, Noto Sans SC, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
 }
 code {
   border-radius: 3px;
@@ -1174,7 +1174,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Serif, Noto Serif SC, Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1350,7 +1350,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffa1ff;
+    background: #608c63;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1988,7 +1988,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2174,7 +2174,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2885,11 +2885,29 @@ body {
   background-position: center;
 }
 .header {
-  opacity: 0.75;
+  opacity: 0.7;
 }
 .sidebar {
-  opacity: 0.75;
+  opacity: 0.7;
 }
 .main-inner {
-  opacity: 0.75;
+  opacity: 0.9;
+}
+.post-body h1::before {
+  content: '#';
+  top: 0;
+  font-weight: bold;
+  padding-right: 6px;
+}
+.post-body h2::before {
+  content: '##';
+  top: 0;
+  font-weight: bold;
+  padding-right: 6px;
+}
+.post-body h3::before {
+  content: '|';
+  top: 0;
+  font-weight: bold;
+  padding-right: 6px;
 }
