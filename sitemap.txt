@@ -1,4 +1,5 @@
-https://wxac4f.github.io/2024/05/21/L-05-20/
+https://wxac4f.github.io/2024/06/04/W-06-04/
+https://wxac4f.github.io/2024/05/21/T-05-20/
 https://wxac4f.github.io/2024/05/17/wimpish/
 https://wxac4f.github.io/changelog/index.html
 https://wxac4f.github.io/2024/03/18/2024-03-17-log/
@@ -52,8 +53,8 @@ https://wxac4f.github.io/tags/An1ao/
 https://wxac4f.github.io/tags/2nd-OF-2022/
 https://wxac4f.github.io/tags/Poems/
 https://wxac4f.github.io/tags/3rd-OF-2023/
-https://wxac4f.github.io/tags/DYT/
 https://wxac4f.github.io/tags/1st-OF-2022/
+https://wxac4f.github.io/tags/DYT/
 https://wxac4f.github.io/tags/Suicide/
 https://wxac4f.github.io/tags/Building-Jumper/
 https://wxac4f.github.io/tags/Elegiac/
@@ -70,13 +71,13 @@ https://wxac4f.github.io/tags/Linux/
 https://wxac4f.github.io/tags/Windows/
 https://wxac4f.github.io/tags/OP/
 https://wxac4f.github.io/tags/Git/
+https://wxac4f.github.io/tags/Test/
+https://wxac4f.github.io/tags/Hello-World/
+https://wxac4f.github.io/tags/Hexo/
 https://wxac4f.github.io/tags/CTCC/
 https://wxac4f.github.io/tags/Hacking/
 https://wxac4f.github.io/tags/HG2543C1/
 https://wxac4f.github.io/tags/TR069/
-https://wxac4f.github.io/tags/Test/
-https://wxac4f.github.io/tags/Hello-World/
-https://wxac4f.github.io/tags/Hexo/
 https://wxac4f.github.io/tags/SEO/
 https://wxac4f.github.io/tags/Sitemap/
 https://wxac4f.github.io/tags/Troubleshooting/
@@ -108,9 +109,9 @@ https://wxac4f.github.io/tags/Offline-account/
 https://wxac4f.github.io/tags/OOBE/
 https://wxac4f.github.io/categories/WIP/
 https://wxac4f.github.io/categories/Finished/
-https://wxac4f.github.io/categories/Artificial/
 https://wxac4f.github.io/categories/WIP/Logs/
-https://wxac4f.github.io/categories/Finished/Titerature/
+https://wxac4f.github.io/categories/Artificial/
+https://wxac4f.github.io/categories/Finished/Literature/
 https://wxac4f.github.io/categories/Original/
 https://wxac4f.github.io/categories/Finished/Solutions/
 https://wxac4f.github.io/categories/Artificial/Literature/
