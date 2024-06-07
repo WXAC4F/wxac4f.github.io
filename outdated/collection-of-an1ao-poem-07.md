@@ -3,7 +3,7 @@ title: An1ao作品集-诗07
 date: 2022-08-25 02:45:00
 author: An1ao
 categories: 
-- [Artificial, Literature]
+- [Literature, Artificial]
 tags:
 - Poems
 - An1ao

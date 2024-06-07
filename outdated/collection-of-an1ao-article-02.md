@@ -3,7 +3,7 @@ title: An1ao作品集-文02
 date: 2022-01-27 03:04:00
 author: An1ao
 categories: 
-- [Artificial, Literature]
+- [Literature, Artificial]
 tags:
 - Essays
 - An1ao
