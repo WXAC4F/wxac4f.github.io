@@ -1350,7 +1350,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #db6250;
+    background: #1f851b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1988,7 +1988,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Sans, Noto Sans SC, Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -1998,12 +1998,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .post-body {
-    text-align: justify;
+    text-align: start;
   }
 }
 @media (max-width: 991px) {
   .post-body {
-    text-align: justify;
+    text-align: start;
   }
 }
 .post-body h1 .header-anchor,
@@ -2174,7 +2174,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Sans, Noto Sans SC, Noto Sans, Noto Sans SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
