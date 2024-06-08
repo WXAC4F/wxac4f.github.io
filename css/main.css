@@ -1274,9 +1274,6 @@ pre code {
   padding: 2px 5px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
-.use-motion .menu-item {
-  visibility: hidden;
-}
 .github-corner :hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -1350,7 +1347,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #aca2a6;
+    background: #ff3040;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1860,18 +1857,10 @@ pre code {
   margin-top: 40px;
   text-align: center;
 }
-.use-motion .post-block,
-.use-motion .pagination,
-.use-motion .comments {
-  visibility: hidden;
-}
 .use-motion .post-header {
   visibility: hidden;
 }
 .use-motion .post-body {
-  visibility: hidden;
-}
-.use-motion .collection-header {
   visibility: hidden;
 }
 .posts-collapse .post-content {
@@ -2804,7 +2793,6 @@ header.header {
     color: var(--text-color);
     margin-top: 12px;
     max-height: calc(100vh - 24px);
-    visibility: hidden;
   }
   .site-state-item {
     padding: 0 10px;
