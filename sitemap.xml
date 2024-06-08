@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/index.html</loc>
+    <loc>https://wxac4f.github.io/archives/index.html</loc>
     
     <lastmod>2022-11-03</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/archives/index.html</loc>
+    <loc>https://wxac4f.github.io/categories/index.html</loc>
     
     <lastmod>2022-11-03</lastmod>
     
@@ -353,20 +353,6 @@
 
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Thoughts/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/T/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Glasses/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -389,6 +375,13 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/i-Scription/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Thoughts/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -472,14 +465,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Suicide/</loc>
+    <loc>https://wxac4f.github.io/tags/T/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Building-Jumper/</loc>
+    <loc>https://wxac4f.github.io/tags/Elegiac/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -570,13 +563,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Elegiac/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/CTCC/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -605,14 +591,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Test/</loc>
+    <loc>https://wxac4f.github.io/tags/Suicide/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Hello-World/</loc>
+    <loc>https://wxac4f.github.io/tags/Building-Jumper/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -640,7 +626,35 @@
   </url>
   
   <url>
+    <loc>https://wxac4f.github.io/tags/Test/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Hello-World/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wxac4f.github.io/tags/Troubleshooting/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Frums/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/DREAM/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -675,27 +689,6 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/tags/Frums/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/DREAM/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wxac4f.github.io/tags/Readme/</loc>
-    <lastmod>2024-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wxac4f.github.io/tags/Raspi/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -711,6 +704,13 @@
   
   <url>
     <loc>https://wxac4f.github.io/tags/Wi-Fi/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wxac4f.github.io/tags/Readme/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -831,14 +831,14 @@
 
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Literature/</loc>
+    <loc>https://wxac4f.github.io/categories/Logs/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Logs/</loc>
+    <loc>https://wxac4f.github.io/categories/Literature/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -852,7 +852,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Literature/Finished/</loc>
+    <loc>https://wxac4f.github.io/categories/Logs/Unfinished/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -866,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Logs/Unfinished/</loc>
+    <loc>https://wxac4f.github.io/categories/Literature/Unfinished/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -880,14 +880,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Literature/Unfinished/</loc>
+    <loc>https://wxac4f.github.io/categories/Solutions/Finished/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Solutions/Finished/</loc>
+    <loc>https://wxac4f.github.io/categories/Literature/Finished/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -901,14 +901,14 @@
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Reposts/</loc>
+    <loc>https://wxac4f.github.io/categories/Music/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wxac4f.github.io/categories/Music/</loc>
+    <loc>https://wxac4f.github.io/categories/Reposts/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
