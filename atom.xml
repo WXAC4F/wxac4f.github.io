@@ -630,9 +630,9 @@
     <category term="Reposts" scheme="https://wxac4f.github.io/categories/Reposts/"/>
     
     
-    <category term="VPS" scheme="https://wxac4f.github.io/tags/VPS/"/>
-    
     <category term="Network" scheme="https://wxac4f.github.io/tags/Network/"/>
+    
+    <category term="VPS" scheme="https://wxac4f.github.io/tags/VPS/"/>
     
     <category term="Website" scheme="https://wxac4f.github.io/tags/Website/"/>
     
@@ -661,11 +661,11 @@
     <category term="Test" scheme="https://wxac4f.github.io/categories/Test/"/>
     
     
+    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
+    
     <category term="Test" scheme="https://wxac4f.github.io/tags/Test/"/>
     
     <category term="Hello World" scheme="https://wxac4f.github.io/tags/Hello-World/"/>
-    
-    <category term="Hexo" scheme="https://wxac4f.github.io/tags/Hexo/"/>
     
   </entry>
   
