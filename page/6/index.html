@@ -91,7 +91,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fab fa-wpexplorer fa-fw"></i>About</a></li><li class="menu-item menu-item-site"><a href="/about-site/" rel="section"><i class="fa fa-wheelchair-alt fa-fw"></i>Site</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">63</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">28</span></a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fab fa-wpexplorer fa-fw"></i>About</a></li><li class="menu-item menu-item-site"><a href="/about-site/" rel="section"><i class="fa fa-wheelchair-alt fa-fw"></i>Site</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">63</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">12</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">29</span></a></li>
   </ul>
 </nav>
 
@@ -130,7 +130,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">28</span>
+          <span class="site-state-item-count">29</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -184,6 +184,138 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wxac4f.github.io/2021/hack-hg2543c1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar_03.webp">
+      <meta itemprop="name" content="WXAC4F">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WXAC4F-Log">
+      <meta itemprop="description" content="但愿千年百年前,<br>主曾与我仰望同一方夜空.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | WXAC4F-Log">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/hack-hg2543c1/" class="post-title-link" itemprop="url">烽火HG2543C1改桥接及禁用TR069教程</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-05-04 13:41:59" itemprop="dateCreated datePublished" datetime="2021-05-04T13:41:59Z">2021-05-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2024-06-07 01:38:34" itemprop="dateModified" datetime="2024-06-07T01:38:34Z">2024-06-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Solutions/" itemprop="url" rel="index"><span itemprop="name">Solutions</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Solutions/Finished/" itemprop="url" rel="index"><span itemprop="name">Finished</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <img data-src="/2021/hack-hg2543c1/logo.png" class="">
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我于今年购入了一台<code>Xiaomi AX3600</code>路由器.<br>因特殊原因,需要拨号上网,故有光猫 路由改桥接 的需求.<br>于是,本文应运而生,做备忘录使用.</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h3 id="改桥接"><a href="#改桥接" class="headerlink" title="改桥接"></a>改桥接</h3><p>进入浏览器访问以下网址,开启光猫Telnet功能.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">192.168.1.1:8080/cgi-bin/telnetenable.cgi?telnetenable=1</span><br></pre></td></tr></table></figure>
+
+<img data-src="/2021/hack-hg2543c1/step1-1.png" class="" title="步骤一">
+
+<p>打开cmd,输入以下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">telnet 192.168.1.1</span><br></pre></td></tr></table></figure>
+
+<img data-src="/2021/hack-hg2543c1/step1-2.png" class="" title="步骤二">
+
+<p>用户名是<code>root</code><br>密码是你的光猫的默认WiFi密码+默认后台管理密码<br>比如我的WiFi密码是<code>abcde</code>,后台管理密码是<code>12345</code>,<br>那么我的Telnet密码就是<code>abcde12345</code>.</p>
+<p>登录成功后,输入以下命令,获取telecomadmin密码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /flash/cfg/agentconf/factory.conf</span><br></pre></td></tr></table></figure>
+
+
+
+<p>进入浏览器访问<code>192.168.1.1</code><br>输入用户名和telecomadmin密码,登录后台</p>
+<img data-src="/2021/hack-hg2543c1/step1-4.png" class="" title="步骤四">
+
+<p>按图示操作依次点击</p>
+<img data-src="/2021/hack-hg2543c1/step1-5.png" class="" title="步骤五">
+
+<img data-src="/2021/hack-hg2543c1/step1-6.png" class="" title="步骤六">
+
+<img data-src="/2021/hack-hg2543c1/step1-7.png" class="" title="步骤七">
+
+<p>至此,你已经将光猫改为了桥接模式.</p>
+<h3 id="禁用TR069"><a href="#禁用TR069" class="headerlink" title="禁用TR069"></a>禁用TR069</h3><p>按之前的操作,使用<code>telnet</code>命令连接至光猫.</p>
+<p>输入以下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /flash/cfg/agentconf/param.xml</span><br></pre></td></tr></table></figure>
+
+<p>打开文件后,输入<code>/46</code>在文件中搜索<code>46</code>这个字符串.</p>
+<p>将文件中下部的两个<code>46</code>改为<code>99</code></p>
+<img data-src="/2021/hack-hg2543c1/step2-1.png" class="" title="步骤一">
+
+<div class="note warning"><p>两个<code>46</code>是挨在一起的,请不要乱修改文件内容.<br>修改结束后造成的后果本人概不负责.</p>
+</div>
+
+<p>修改结束后输入<code>:wq</code>保存文件</p>
+<p>重启光猫,返回后台,可见TR069协议不通.</p>
+<img data-src="/2021/hack-hg2543c1/step2-2.png" class="" title="步骤二">
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
