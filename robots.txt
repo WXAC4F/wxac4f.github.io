@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Allow: /about-site/
+Allow: /page/
+Disallow: /anomaly/
+Disallow: /changelog/
+Disallow: /real-about/
+Disallow: /music/
+Disallow: /images/ 
+Disallow: /the-start/
+Disallow: /the-start-next/
+Disallow: /404/
+Sitemap: https://log.wxa.icu/sitemap.xml
