@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WXAC4F-Log</title>
+  <icon>https://wxac4f.github.io/images/avatar_02.png</icon>
+  <subtitle>lowest.world</subtitle>
+  <link href="https://wxac4f.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wxac4f.github.io/"/>
+  <updated>2024-10-23T13:34:02.878Z</updated>
+  <id>https://wxac4f.github.io/</id>
+  
+  <author>
+    <name>WXAC4F</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Guide to Build OpenWrt on WSL2</title>
+    <link href="https://wxac4f.github.io/2024/A-Guide-to-Build-OpenWrt-on-WSL2/"/>
+    <id>https://wxac4f.github.io/2024/A-Guide-to-Build-OpenWrt-on-WSL2/</id>
+    <published>2024-10-19T16:55:30.000Z</published>
+    <updated>2024-10-23T13:34:02.878Z</updated>
+    
+    <content type="html"><![CDATA[<p>This article finished in a hurry.</p><p>Just wanna tell you guys that I&#39;m still alive :)</p><h1 id="Build-System-Setup"><a href="#Build-System-Setup" class="headerlink" title="Build System Setup"></a>Build System Setup</h1><p>You can check <span class="exturl" data-url="aHR0cHM6Ly9vcGVud3J0Lm9yZy9kb2NzL2d1aWRlLWRldmVsb3Blci90b29sY2hhaW4vaW5zdGFsbC1idWlsZHN5c3RlbQ==">https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem</span></p><h1 id="Obtain-Latest-Packages"><a href="#Obtain-Latest-Packages" class="headerlink" title="Obtain Latest Packages"></a>Obtain Latest Packages</h1><p>I need some extra packages from <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2tlbnpvazgvb3BlbndydC1wYWNrYWdlcw==">https://github.com/kenzok8/openwrt-packages</span></p><p>So I run this command: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i <span class="string">&#x27;1i src-git kenzo https://github.com/kenzok8/openwrt-packages&#x27;</span> feeds.conf.default</span><br></pre></td></tr></table></figure><p>The following stuff is from <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL29wZW53cnQvb3BlbndydA==">https://github.com/openwrt/openwrt</span></p><p>Run <code>./scripts/feeds update -a</code><br>(Obtain all the latest package definitions defined in feeds.conf &#x2F; feeds.conf.default)</p><p>Run <code>./scripts/feeds install -a</code><br>(Install symlinks for all obtained packages into package&#x2F;feeds&#x2F;)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./scripts/feeds update -a</span><br><span class="line">./scripts/feeds install -a</span><br></pre></td></tr></table></figure><span id="more"></span><h1 id="Edit-Default-Configuration"><a href="#Edit-Default-Configuration" class="headerlink" title="Edit Default Configuration"></a>Edit Default Configuration</h1><p>Make changes to <code>.config</code> in any way you like. </p><p>Remember to sync the config by running <code>make menuconfig</code> or <code>make defconfig</code> before moving further!</p><h1 id="Download-Necessary-Files"><a href="#Download-Necessary-Files" class="headerlink" title="Download Necessary Files"></a>Download Necessary Files</h1><p>Simply run this command.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make download -j$(<span class="built_in">nproc</span>) V=s</span><br></pre></td></tr></table></figure><h1 id="Run-Full-Build"><a href="#Run-Full-Build" class="headerlink" title="Run Full Build"></a>Run Full Build</h1><p>The original source is <span class="exturl" data-url="aHR0cHM6Ly9vcGVud3J0Lm9yZy9kb2NzL2d1aWRlLWRldmVsb3Blci90b29sY2hhaW4vd3Ns">https://openwrt.org/docs/guide-developer/toolchain/wsl</span></p><p>In short, run the following command instead of executing <code>make</code> directly.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(<span class="built_in">nproc</span>) V=s</span><br></pre></td></tr></table></figure><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL29wZW53cnQvb3BlbndydA==">https://github.com/openwrt/openwrt</span></li><li><span class="exturl" data-url="aHR0cHM6Ly9vcGVud3J0Lm9yZy9kb2NzL2d1aWRlLWRldmVsb3Blci90b29sY2hhaW4vaW5zdGFsbC1idWlsZHN5c3RlbQ==">https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem</span></li><li><span class="exturl" data-url="aHR0cHM6Ly9vcGVud3J0Lm9yZy9kb2NzL2d1aWRlLWRldmVsb3Blci90b29sY2hhaW4vd3Ns">https://openwrt.org/docs/guide-developer/toolchain/wsl</span></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;This article finished in a hurry.&lt;/p&gt;
+&lt;p&gt;Just wanna tell you guys that I&amp;#39;m still alive :)&lt;/p&gt;
+&lt;h1 id=&quot;Build-System-Setup&quot;&gt;&lt;a href=&quot;#Build-System-Setup&quot; class=&quot;headerlink&quot; title=&quot;Build System Setup&quot;&gt;&lt;/a&gt;Build System Setup&lt;/h1&gt;&lt;p&gt;You can check &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9vcGVud3J0Lm9yZy9kb2NzL2d1aWRlLWRldmVsb3Blci90b29sY2hhaW4vaW5zdGFsbC1idWlsZHN5c3RlbQ==&quot;&gt;https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Obtain-Latest-Packages&quot;&gt;&lt;a href=&quot;#Obtain-Latest-Packages&quot; class=&quot;headerlink&quot; title=&quot;Obtain Latest Packages&quot;&gt;&lt;/a&gt;Obtain Latest Packages&lt;/h1&gt;&lt;p&gt;I need some extra packages from &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9naXRodWIuY29tL2tlbnpvazgvb3BlbndydC1wYWNrYWdlcw==&quot;&gt;https://github.com/kenzok8/openwrt-packages&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So I run this command: &lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sed -i &lt;span class=&quot;string&quot;&gt;&amp;#x27;1i src-git kenzo https://github.com/kenzok8/openwrt-packages&amp;#x27;&lt;/span&gt; feeds.conf.default&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;The following stuff is from &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9naXRodWIuY29tL29wZW53cnQvb3BlbndydA==&quot;&gt;https://github.com/openwrt/openwrt&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;./scripts/feeds update -a&lt;/code&gt;&lt;br&gt;(Obtain all the latest package definitions defined in feeds.conf &amp;#x2F; feeds.conf.default)&lt;/p&gt;
+&lt;p&gt;Run &lt;code&gt;./scripts/feeds install -a&lt;/code&gt;&lt;br&gt;(Install symlinks for all obtained packages into package&amp;#x2F;feeds&amp;#x2F;)&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;./scripts/feeds update -a&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./scripts/feeds install -a&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Guides" scheme="https://wxac4f.github.io/categories/Guides/"/>
+    
+    
+    <category term="WSL2" scheme="https://wxac4f.github.io/tags/WSL2/"/>
+    
+    <category term="OpenWrt" scheme="https://wxac4f.github.io/tags/OpenWrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>weathergirl - Flavor Foley</title>
+    <link href="https://wxac4f.github.io/2024/weathergirl/"/>
+    <id>https://wxac4f.github.io/2024/weathergirl/</id>
+    <published>2024-09-05T13:41:09.000Z</published>
+    <updated>2024-10-19T17:52:16.666Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Description</p></blockquote><p>JamieP: &quot;she struck land in texas with a wake of death in her path, proving with her flood waters and gusts of wind that even echoes of strength are still strength. i left most of my things behind once i heard you were okay, and i drove.</p><p>it&#39;s scary, right? seems like the storms are coming earlier, touching down stronger every year. so many things to be done, yet nothing changes. it hurts my chest and burns my heart that there&#39;s almost nothing i can do about it by myself.</p><p>...but at least with you, i can dream. i can watch sunny days and fairer pastures light up in your eyes, the winds blowing gently with the lilt of your voice. you are living proof that the future should be something to look forward to.<br>so, even if the forecast calls for cloudy days, i&#39;m glad i can weather them with (or for) you.&quot;</p><p>Vane Lily: &quot;i&#39;ll wait here till the storm ends&quot;</p><p>rice: &quot;i wrote this song over 2 years ago. is it too late for my feelings to reach? oh, i forgot to bring an umbrella...&quot;</p><span id="more"></span><blockquote><p>Lyrics</p></blockquote><p>weathergirl[0]</p><p>That morning, just me and you<br>With azure views for two<br>Our promises bound by sights we long outgrew </p><p>A curtain dyed shades unlaid[1] by morning sun<br>A weeping window wails for days come undone</p><p>If I live to be a weathervane<br>Always pointing off, away, to lead you &#39;long the flyway<br>Turned to face this side of you<br>Would it be enough for me to lead your way?</p><p>I’ll stay afraid in weekday<br>(Come what may)<br>I reach for what remains</p><p>Didn&#39;t you see the news today?<br>I heard they said it looked like rain [2]<br>All the words I left unsaid that day<br>Stained the sidewalk drop by drop with gray, oh<br>Rain or shine [3], I&#39;m by your side<br>So why won&#39;t you look my way?<br>The weather forecast&#39;s calling for another cloudy day</p><p>That evening, just me and you<br>Through rosy tinted hues [4]<br>A promise of fairer winds [5] that never blew</p><p>Vermilion claims to say the sun will stay<br>And yet my heart holds close the storm as it breaks [6]</p><p>I could live to be a hurricane<br>Turn into a tempest, violent, silent in the eye[7]<br>All whirling, gusting, wuthering<br>Could it be enough to change the way you use my name?[8]</p><p>Remain in weekday<br>(I’m okay)<br>I stay for all that aches </p><p>Didn&#39;t you see the news today?<br>I heard they said it looked like rain [2]<br>All the words I left unsaid that day<br>Stained the sidewalk drop by drop with gray, oh<br>Rain or shine [3], my heart won&#39;t dry<br>So why can&#39;t I look away?<br>The weather forecast&#39;s calling for another cloudy day</p><p>Didn&#39;t you see the news today?<br>I heard they said it looked like rain [2]<br>All the words I left unsaid that day<br>Stained the sidewalk drop by drop with gray, oh<br>Rain or shine [3], I&#39;m by your side<br>So why won&#39;t you look my way?<br>The weather forecast&#39;s calling for another…</p><p>Didn&#39;t you see the news today?<br>I heard they said it looked like rain [2]<br>All the words I left unsaid that day<br>Stained the sidewalk drop by drop with gray, oh<br>Vivid[9] skies may pass me by<br>But even still, I&#39;ll stay<br>The weather forecast&#39;s calling for another cloudy day</p><p>Look through me, a windowpane<br>Colored as a sky entirely filled with clouds, I might be<br>Everything that I can be<br>If it’s not enough, I trust the sky will open up<br>Someday, someday, someday</p><hr><p>[0]:<br>a weather girl (with a space in between) refers to a young woman who presents weather forecasts on news channels.<br>not including the space between the words (weathergirl) can be interpreted as a secondary meaning, as in &quot;a girl with the attribute of weather&quot;</p><p>[1]:<br>&quot;laid&quot; can mean &quot;to prepare&quot;, such as &quot;laying the table&quot; (to prepare the table for a meal),<br>or to &quot;lay to rest&quot; (to prepare a dead body for burial).<br>so unlaid can mean the opposite of this: dissatisfied, uneasy, incomplete</p><p>[2]:<br>this is phrased like small talk, or a casual conversation</p><p>[3]:<br>this is an idiom. it literally means &quot;in any weather conditions&quot; such as an outdoor event that won&#39;t be cancelled even if it rains.<br>figuratively, it means &quot;no matter what happens, through both good and bad circumstances&quot;</p><p>[4]:<br>&quot;rosy tinted hues&quot; can refer to the color of a sunset,<br>but can also refer to the expression &quot;rose tinted glasses&quot;: to only see the good in something and ignore reality</p><p>[5]:<br>&quot;fair winds&quot; &#x3D; favorable conditions, such as when the wind blows in the direction a boat wants to travel</p><p>[6]:<br>&quot;breaking storm&quot; &#x3D; term for when a storm finally starts, after clouds have accumulated.<br>it is intentionally vague whether &quot;it&quot; in this sentence refers to the heart (heart breaks) or the storm (storm breaks).</p><p>[7]:<br>&quot;eye&quot; as in &quot;eye of the storm&quot; or &quot;eye of the hurricane&quot;</p><p>[8]:<br>in north america (and maybe elsewhere in the world, too? no idea we&#39;re just going off of our experience),<br>tropical cyclones are given names (like Hurricane Matthew, Hurricane Edna, etc).<br>if a cyclone is particularly damaging or severe, that name is retired and can&#39;t be used again<br><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTGlzdF9vZl9yZXRpcmVkX0F0bGFudGljX2h1cnJpY2FuZV9uYW1lcw==">https://en.wikipedia.org/wiki/List_of_retired_Atlantic_hurricane_names</span></p><p>[9]:<br>&quot;vivid&quot; here could mean &quot;bright&quot;, &quot;deep&quot;, or &quot;colorful&quot;</p><hr><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul><li><span class="exturl" data-url="aHR0cHM6Ly9mbGF2b3Jmb2xleS5uZW9jaXRpZXMub3JnL3dlYXRoZXJnaXJsdHJhbnNsYXRpb25hbm5vdGF0aW9ucw==">https://flavorfoley.neocities.org/weathergirltranslationannotations</span></li><li><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NN1ZTRVpPUUlsZw==">https://www.youtube.com/watch?v=M7VSEZOQIlg</span></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;JamieP: &amp;quot;she struck land in texas with a wake of death in her path, proving with her flood waters and gusts of wind that even echoes of strength are still strength. i left most of my things behind once i heard you were okay, and i drove.&lt;/p&gt;
+&lt;p&gt;it&amp;#39;s scary, right? seems like the storms are coming earlier, touching down stronger every year. so many things to be done, yet nothing changes. it hurts my chest and burns my heart that there&amp;#39;s almost nothing i can do about it by myself.&lt;/p&gt;
+&lt;p&gt;...but at least with you, i can dream. i can watch sunny days and fairer pastures light up in your eyes, the winds blowing gently with the lilt of your voice. you are living proof that the future should be something to look forward to.&lt;br&gt;so, even if the forecast calls for cloudy days, i&amp;#39;m glad i can weather them with (or for) you.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Vane Lily: &amp;quot;i&amp;#39;ll wait here till the storm ends&amp;quot;&lt;/p&gt;
+&lt;p&gt;rice: &amp;quot;i wrote this song over 2 years ago. is it too late for my feelings to reach? oh, i forgot to bring an umbrella...&amp;quot;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Music" scheme="https://wxac4f.github.io/categories/Music/"/>
+    
+    
+    <category term="Lyrics" scheme="https://wxac4f.github.io/tags/Lyrics/"/>
+    
+    <category term="Flavor Foley" scheme="https://wxac4f.github.io/tags/Flavor-Foley/"/>
+    
+    <category term="weathergirl" scheme="https://wxac4f.github.io/tags/weathergirl/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些对我有特殊意义的音乐</title>
+    <link href="https://wxac4f.github.io/2024/meaningful-music/"/>
+    <id>https://wxac4f.github.io/2024/meaningful-music/</id>
+    <published>2024-06-16T19:54:00.000Z</published>
+    <updated>2024-10-23T13:24:16.861Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Before-we-start"><a href="#Before-we-start" class="headerlink" title="Before we start..."></a>Before we start...</h1><p>我已完成阶段性学业水平测试.</p><p>这本是大喜事: 几个同伴约定着一起看日出.</p><p>现在是上午4:00, 没有人回复. </p><p>他们绝对身陷沉睡, 达到可以定性的程度.</p><p>这样的情况还会反复上演, 理智如是言说.</p><p>打发时间, 敷衍了事: </p><p>抱着如此的即兴态度, 我, 开始行文.</p><span id="more"></span><h1 id="Let-s-get-started"><a href="#Let-s-get-started" class="headerlink" title="Let&#39;s get started."></a>Let&#39;s get started.</h1><h2 id="2022-03-08"><a href="#2022-03-08" class="headerlink" title="2022-03-08"></a>2022-03-08</h2><h3 id="Shades-of-Light-in-a-Transcendent-Realm"><a href="#Shades-of-Light-in-a-Transcendent-Realm" class="headerlink" title="Shades of Light in a Transcendent Realm"></a>Shades of Light in a Transcendent Realm</h3><img data-src="/2024/meaningful-music/Songs_shadesoflight.jpg" class="" title="Shades of Light in a Transcendent Realm"><p>电子产品,</p><p>这是普遍的文艺复兴手段之一.</p><p>但, 我看到, 在义务教育的环境下, </p><p>它们仅能被称作<code>有害垃圾</code>.</p><p>时间是死的, 被我们拆得七零八落.</p><p>因此, 拿到电子产品: 听歌, 游戏, 搜题, 可都是要干的.</p><p>功课呢? 不能不完成.</p><p>于是同学们成功地找到了那些平衡点.</p><p>于是故事得以续写下去, 越来越有趣.</p><p>我最早是在<code>Arcaea</code>里得知这首曲子, <code>网易云音乐</code>中再次熟悉的.</p><p>时不时还能想起它的旋律: 美丽且不刺耳, 像一连串的幻梦.</p><p>...</p><p><del>Oyasumi, Oyasumi.</del></p><p><del>Close your eyes and you&#39;ll leave this dream...</del></p><h2 id="2022-06-30"><a href="#2022-06-30" class="headerlink" title="2022-06-30"></a>2022-06-30</h2><h3 id="Vivid-Theory"><a href="#Vivid-Theory" class="headerlink" title="Vivid Theory"></a>Vivid Theory</h3><img data-src="/2024/meaningful-music/Songs_vividtheory.jpg" class="" title="Vivid Theory"><p>生动的理论, 生动地理论, 无所谓了.</p><p>每天都见到的理论, 一点也不生动, 差评.</p><p>偶尔能够见到的理论, 会让我目害, 差评.</p><p>在某些日子, 看着曲绘, 播放这首歌,</p><p>我的脑海画面都会浮想联翩.</p><h2 id="2022-07-07"><a href="#2022-07-07" class="headerlink" title="2022-07-07"></a>2022-07-07</h2><h3 id="Altair-feat-spiLa"><a href="#Altair-feat-spiLa" class="headerlink" title="Altair (feat. *spiLa*)"></a>Altair (feat. *spiLa*)</h3><img data-src="/2024/meaningful-music/Songs_altair.jpg" class="" title="Altair (feat. *spiLa*)"><p>假期到了, 生活怎能没有音乐?</p><p>我还是走下天台, 回到了房间. </p><p>睁了眼, 然后开始做数据恢复.</p><p>得知Lowiro公布了<code>Arcaea 4.0</code>, 于是皆大欢喜.</p><p>可惜底力无法与经典抗衡, <code>尾判</code>太吓人!</p><p>音乐带给我的, 远不止于节律和振动.</p><p>也包括这首歌.</p><h2 id="2022-08-28"><a href="#2022-08-28" class="headerlink" title="2022-08-28"></a>2022-08-28</h2><h3 id="Redraw-the-Colorless-World"><a href="#Redraw-the-Colorless-World" class="headerlink" title="Redraw the Colorless World"></a>Redraw the Colorless World</h3><img data-src="/2024/meaningful-music/Songs_mukishitsu.jpg" class="" title="無機質世界に彩を"><p><em>(2022年7月某日 03:34)</em></p><p><em>(城郊某幢住宅楼的天台, 视宁度差)</em></p><p><em>(球形通风器一旁有个人影, 看不清五官)</em> </p><p><em>(其手中攥着什么, 举在腰间)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0334.wav"></audio><pre><code>某人    吞了这胶囊和片剂, 留院观察的事就可以缓缓.某人    去你妈的脑科医院! 这难道是选择题吗?</code></pre><p><em>(把东西塞进校服口袋)</em></p><p><em>(抬头看着天空)</em></p><pre><code>某人    光污染太严重了吧, 这么几个光点, 不好看...</code></pre><p><em>(沉默, 风声, 虫鸣)</em></p><p><em>(明快的青草味, 体感略闷热)</em></p><pre><code>某人    被他们五花大绑, 抬进病区之前,某人    ...我也该提前做个了结.</code></pre><p><em>(若有所悟, 沉默)</em></p><p><em>(走向边缘的护栏)</em></p><p><em>(小心地爬上去, 站稳)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0336.wav"></audio><p><em>(向对面楼层扫了几眼, 没有完全对焦)</em></p><p><em>(闭上眼, 低下头, 睁开)</em></p><p><em>(盯着被路灯照亮的行道树)</em></p><pre><code>某人    配合治疗? 去他妈的!某人    找几个不知所谓的病名, 记在档案里, 那他妈才是真正的残疾!</code></pre><p><em>(整理心情)</em></p><p><em>(目视前方)</em></p><p><em>(向前一步)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0409.wav"></audio><p><em>(这次看向地面)</em></p><pre><code>某人    我还是挺开心的. 某人    因为终于可以告别这里, 终于要结束了...</code></pre><p><em>(心跳声变得急促有力, 能感到振动从胸口扩散)</em></p><p><em>(后背一阵燥热)</em></p><p><em>(长时间的沉默)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0411.wav"></audio><pre><code>某人    此前, 我听过许多类似的故事.某人    能流传的结局, 无一例外的惨.</code></pre><p><em>(闭眼, 又睁开)</em></p><p><em>(上半身略感颤抖, 有汗珠渗出)</em></p><p><em>(这次向下望去, 目光没有焦点)</em></p><pre><code>某人    我本能地排斥着痛苦, 这样的感知如此真实.</code></pre><p><em>(停顿)</em></p><pre><code>某人    ...这样的意志如此可恨!</code></pre><p><em>(深呼吸)</em></p><pre><code>某人    其次, 我痛恨懦弱, 我对于这个世界的懦弱.某人    我一直怯于改变, 以至于现在无力去改变什么.</code></pre><p><em>(闭眼, 后退)</em></p><p><em>(从栏杆上爬下来)</em></p><p><em>(花了点时间站稳)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0419.wav"></audio><pre><code>某人    懦弱的结果就是: 我还要继续活下去, 带着可恨的意志活下去.</code></pre><p><em>(擦去脖颈的汗珠)</em></p><p><em>(简单环顾周围的设施)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0421.wav"></audio><pre><code>某人    情感侵蚀神经系统后, 我才意识到某些东西.</code></pre><p><em>(还想看看天空, 于是抬头)</em></p><pre><code>某人    这次它是如此的纯净, 强烈, 让我看到这一幅光景---</code></pre><p><em>(伸出右手, 试着挡住光点)</em></p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_07_29/20240729-0422.wav"></audio><pre><code>某人    ---我输给我自己.</code></pre><blockquote class="blockquote-center"><p>変わり続ける世界が、怖かった<br>いつしか、変わることの無い世界が、怖くなった<br>もしも<br>この無機質な世界を、少しでも美しく思えたなら</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Before-we-start&quot;&gt;&lt;a href=&quot;#Before-we-start&quot; class=&quot;headerlink&quot; title=&quot;Before we start...&quot;&gt;&lt;/a&gt;Before we start...&lt;/h1&gt;&lt;p&gt;我已完成阶段性学业水平测试.&lt;/p&gt;
+&lt;p&gt;这本是大喜事: 几个同伴约定着一起看日出.&lt;/p&gt;
+&lt;p&gt;现在是上午4:00, 没有人回复. &lt;/p&gt;
+&lt;p&gt;他们绝对身陷沉睡, 达到可以定性的程度.&lt;/p&gt;
+&lt;p&gt;这样的情况还会反复上演, 理智如是言说.&lt;/p&gt;
+&lt;p&gt;打发时间, 敷衍了事: &lt;/p&gt;
+&lt;p&gt;抱着如此的即兴态度, 我, 开始行文.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Thoughts" scheme="https://wxac4f.github.io/tags/Thoughts/"/>
+    
+    <category term="Memories" scheme="https://wxac4f.github.io/tags/Memories/"/>
+    
+    <category term="Archive" scheme="https://wxac4f.github.io/tags/Archive/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2022年某个夏夜的回忆</title>
+    <link href="https://wxac4f.github.io/2024/mmr-of-2022/"/>
+    <id>https://wxac4f.github.io/2024/mmr-of-2022/</id>
+    <published>2024-06-03T23:45:14.000Z</published>
+    <updated>2024-10-21T04:16:13.600Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Greetings to my readers.</p><p>2022 was a confusing year to me.<br>Honestly, I wasn&#39;t very happy and spent a month in solitary.<br>I should probably attempt to forget that.</p><p>It was a normal evening on the way home from school.<br>With the engine roaring, I looked up at the night sky.<br>My thoughts were back to the early summer days, just before finals.</p><p>To escape from the pressure of studying,<br>DYT and I had an agreement to meet at the town square at midnight.<br>We listened to the birds and counted the stars in the night sky,<br>Writing memories in our own words.</p><p>I closed my eyes and felt like I was back in those nostalgic days.</p><span id="more"></span><h1 id="I-00-28-A-M"><a href="#I-00-28-A-M" class="headerlink" title="I - 00:28 A.M."></a>I - 00:28 A.M.</h1><p>At the time, since we met up at midnight without our parents&#39; permission.<br>We had to sneak out. The nervousness weighed heavily on our hearts.</p><p>We were so caught up in the moment--<br>--Trying not to get fxxked up.</p><p>After all, in our excitement, in the darkest nights,<br>We failed to record what exactly happended that night. </p><p>As a result, now I can only recreate the scenes from my memory which like shit.</p><p>To make up for this,<br>I went out on a couple of clear nights with my phone and recorded some white noise.</p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_04_04/24_04_04_0.m4a"></audio><h1 id="II-01-13-A-M"><a href="#II-01-13-A-M" class="headerlink" title="II - 01:13 A.M."></a>II - 01:13 A.M.</h1><p>DYT and I agreed to meet at 1:15 A.M. at a local mall that&#39;s been abandoned.<br>There were so many buildings and so much chaos that we almost missed each other.</p><p>Fortunately, we managed to find each other in the dim light.<br>Once we were together, we headed to a nearby store for some snacks and drinks. </p><p>Then, we walked along the sidewalk for a while.</p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_04_04/24_04_04_1.m4a"></audio><h1 id="III-03-27-A-M"><a href="#III-03-27-A-M" class="headerlink" title="III - 03:27 A.M."></a>III - 03:27 A.M.</h1><p>DYT and I wandered around the town, cursing the school.<br>And then we came to the square in front of an old city wall.</p><p>There were many birds in the trees, flying around and tweeting.</p><p>I was so tired that decided to lie on the ground.</p><p>As I gazed up at the stars across the night sky,<br>DYT stood nearby, treating me like I was retarded.</p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_04_04/24_04_04_2.m4a"></audio><h1 id="IV-04-15-A-M"><a href="#IV-04-15-A-M" class="headerlink" title="IV - 04:15 A.M."></a>IV - 04:15 A.M.</h1><p>We came to the entrance of a hospital,<br>Where there were a lot of shared bicycles parked.</p><p>&quot;I don&#39;t want to go back.&quot;<br>DYT looks worried.</p><p>&quot;We must be killed, so take my last words...&quot;<br><em>* weird laughter *</em></p><p>But he went back minutes later.</p><p>(Tomorrow, no, we need to go to school at <em><strong>6 A.M.</strong></em> that morning.)</p><audio controls="controls" preload="none" controlsList="nodownload" oncontextmenu="return false"><source src="/data/audio/24_04_04/24_04_04_3.m4a"></audio><h1 id="V-05-03-A-M"><a href="#V-05-03-A-M" class="headerlink" title="V - 05:03 A.M."></a>V - 05:03 A.M.</h1><p>I walked back to my room, looked at the fan,<br>Which was quite noisy, and fell asleep right away.</p><h1 id="EX-06-46-A-M"><a href="#EX-06-46-A-M" class="headerlink" title="EX - 06:46 A.M."></a>EX - 06:46 A.M.</h1><p>So the night was over.<br>Everything went on as usual, as if nothing had happened.</p><p>I hope the past exists...</p><blockquote><p>Memories of a Summer Night in 2022</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;Greetings to my readers.&lt;/p&gt;
+&lt;p&gt;2022 was a confusing year to me.&lt;br&gt;Honestly, I wasn&amp;#39;t very happy and spent a month in solitary.&lt;br&gt;I should probably attempt to forget that.&lt;/p&gt;
+&lt;p&gt;It was a normal evening on the way home from school.&lt;br&gt;With the engine roaring, I looked up at the night sky.&lt;br&gt;My thoughts were back to the early summer days, just before finals.&lt;/p&gt;
+&lt;p&gt;To escape from the pressure of studying,&lt;br&gt;DYT and I had an agreement to meet at the town square at midnight.&lt;br&gt;We listened to the birds and counted the stars in the night sky,&lt;br&gt;Writing memories in our own words.&lt;/p&gt;
+&lt;p&gt;I closed my eyes and felt like I was back in those nostalgic days.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Thoughts" scheme="https://wxac4f.github.io/tags/Thoughts/"/>
+    
+    <category term="Memories" scheme="https://wxac4f.github.io/tags/Memories/"/>
+    
+    <category term="Archive" scheme="https://wxac4f.github.io/tags/Archive/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>T.</title>
+    <link href="https://wxac4f.github.io/2024/T-05-20/"/>
+    <id>https://wxac4f.github.io/2024/T-05-20/</id>
+    <published>2024-05-20T14:18:14.000Z</published>
+    <updated>2024-10-23T13:26:50.938Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="0"><a href="#0" class="headerlink" title="0"></a>0</h1><p>&quot;椅&quot;.</p><p>铁为构架, 哑灰包裹.</p><p>覆以木板, 脏杂淡黄.</p><p>&quot;桌&quot;.</p><p>相同构架, 不同架构.</p><p>二者尚不明晰, 其上有人形.</p><p>如是之外, 真空, 独色光景闪回其中.</p><p>易知, &quot;真空&quot;并非绝对空寂, 更不为&quot;空集&quot;.</p><p>如果人形属于&quot;真空&quot;呢?</p><p>经由上述设想, 得到如下可能: </p><p>姑且叫&quot;T&quot;吧.</p><span id="more"></span><h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><p>T是向来的好孩子, </p><p>似乎总是事事关心的样子.</p><p>与师长见面, 与同伴相处: </p><p>&quot;T是全心学业的模子.&quot;</p><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><p>结业考试临期, 有如大限将近.</p><p>时间却不焦急, 一步一步走着.</p><p>可谓寸草不生, 便是T的座位.</p><p>废手纸, 包装袋, </p><p>一应一和的咒骂, 一天一换的同桌. </p><p>这位置不属于任何同学, 实际如此.</p><p>自然也包括T. </p><h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><p>睁眼, 倒计时闪现.  </p><p>闭眼, 抢救深睡眠. </p><p>略带温热的常服, 满怀期待的空腹, </p><p>终于不知道还能做什么了. </p><p>一方小小的显示屏, T坐在桌椅前, </p><p>沉入了半盒的药和满杯的眠.</p><h1 id="4"><a href="#4" class="headerlink" title="4"></a>4</h1><p>抛开这些无聊之事, T的生活还是挺无聊的.</p><p>重力将T缚在地面, 每一天.</p><p>T不可, 也不能再随波逐流了.</p><p>几个夜晚, T发誓, 不会再与人共事.</p><p>一氧化碳聚集, 可是又散去.</p><p>可以说: </p><p>只能存在于脑海中的幻想,</p><p>已注定T的失败了.</p><h1 id="5"><a href="#5" class="headerlink" title="5"></a>5</h1><p>抛开这些无聊之事, T的生活还是挺无聊的. </p><p>&quot;无聊透顶...!&quot; </p><p>T这样想, 望着窗边. </p><p>然后闭上眼, 想看见真空的极限. </p><p>深呼吸, 飞了下去, 在上一个瞬间. </p><blockquote><p>这就是T的故事了.</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;0&quot;&gt;&lt;a href=&quot;#0&quot; class=&quot;headerlink&quot; title=&quot;0&quot;&gt;&lt;/a&gt;0&lt;/h1&gt;&lt;p&gt;&amp;quot;椅&amp;quot;.&lt;/p&gt;
+&lt;p&gt;铁为构架, 哑灰包裹.&lt;/p&gt;
+&lt;p&gt;覆以木板, 脏杂淡黄.&lt;/p&gt;
+&lt;p&gt;&amp;quot;桌&amp;quot;.&lt;/p&gt;
+&lt;p&gt;相同构架, 不同架构.&lt;/p&gt;
+&lt;p&gt;二者尚不明晰, 其上有人形.&lt;/p&gt;
+&lt;p&gt;如是之外, 真空, 独色光景闪回其中.&lt;/p&gt;
+&lt;p&gt;易知, &amp;quot;真空&amp;quot;并非绝对空寂, 更不为&amp;quot;空集&amp;quot;.&lt;/p&gt;
+&lt;p&gt;如果人形属于&amp;quot;真空&amp;quot;呢?&lt;/p&gt;
+&lt;p&gt;经由上述设想, 得到如下可能: &lt;/p&gt;
+&lt;p&gt;姑且叫&amp;quot;T&amp;quot;吧.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Literature/"/>
+    
+    <category term="Original" scheme="https://wxac4f.github.io/categories/Literature/Original/"/>
+    
+    
+    <category term="Thoughts" scheme="https://wxac4f.github.io/tags/Thoughts/"/>
+    
+    <category term="T" scheme="https://wxac4f.github.io/tags/T/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>蔡司智锐甄选版+i.Scription (光优视) 配镜记录</title>
+    <link href="https://wxac4f.github.io/2024/zeiss-log/"/>
+    <id>https://wxac4f.github.io/2024/zeiss-log/</id>
+    <published>2024-03-17T14:25:30.000Z</published>
+    <updated>2024-11-07T15:32:50.436Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本人非眼镜类从业者, 仅为平日爱好.<br>此文章仅作生活日志发布.</p></blockquote><span id="more"></span><blockquote><p>(可直接跳至<a href="#%E6%A6%82%E8%A7%88">此处</a></p></blockquote><h1 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a>写在开头</h1><p>先是在医院配镜, 康耐特镜片.</p><p>因为不打折, 共亏了小几千.</p><p>几年后, 来到某&quot;丹阳眼镜店&quot;.</p><p>这次是格林视通(定制片还行)和凯钻(未知品牌).</p><img data-src="/2024/zeiss-log/o1.jpg" class="" title="very stable"><p>前年看到接近-2.00D的柱镜度数, 换了泽锐镜片.</p><p>后来去本地知名老店, 配了智锐青春单光, </p><p>这下柱镜是-2.75D了...</p><hr><h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><ul><li>镜架</li></ul><ul><li>品牌: CLASSICAL</li><li>型号: C3</li><li>材质: β钛+板材</li><li>颜色: 黑色</li></ul><ul><li>镜片</li></ul><ul><li>品牌: ZEISS</li><li>型号: 智锐单光甄选版</li><li>技术: 光优视</li><li>膜层: 铂金膜</li><li>折射率: 1.6</li><li>材质: MR-8</li></ul><h2 id="预览照"><a href="#预览照" class="headerlink" title="预览照"></a>预览照</h2><img data-src="/2024/zeiss-log/1.jpg" class="" title="looks good"><p>俯视图.</p><img data-src="/2024/zeiss-log/2.jpg" class="" title="thin with -8.00D and it is 1.60"><p>右视图.</p><img data-src="/2024/zeiss-log/4.jpg" class="" title="ZEISS logo"><p>欣赏LOGO.</p><img data-src="/2024/zeiss-log/5.jpg" class="" title="lense packages"><p>包装袋.</p><img data-src="/2024/zeiss-log/6.jpg" class="" title="lense detail"><p>优化光度单.</p><h1 id="佩戴"><a href="#佩戴" class="headerlink" title="佩戴"></a>佩戴</h1><p>感受: </p><p>青春版--&gt;甄选版: </p><p>差别确实有, 但真的不大, 感觉受到自我欺骗.</p><p>无--&gt;光优视: </p><p>夜间观察路灯几乎无改善, </p><p>原有的像散依然存在.</p><p>其它: </p><p>从青春版换到甄选版需要适应一段时间, 略有头晕.</p><p>注意: </p><p>人眼决定上限, 镜片决定下限.</p><h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>选配这项技术不必要, 普通版足矣.</p><p>以下主观看法: </p><p>光优视所能做的很有限, 至少对于-2.75D的柱镜是如此.</p><p>其技术意义: 用最低的屈光度, 争取最少像散.</p><img data-src="/2024/zeiss-log/3.jpg" class="" title="not pure..."><p>颜色偏差太他妈大了.</p><p>目测感觉这个UV防护效果惊人, 哈哈.</p><h1 id="重生"><a href="#重生" class="headerlink" title="重生"></a>重生</h1><p>镜子戴了三周, 评价: </p><p>这是我近用视力最佳的一副镜子.</p><p>这是我远视体验较差的一副镜子.</p><p><em>直奔眼镜店</em></p><p>于是: </p><img data-src="/2024/zeiss-log/wtf.jpg" class="" title="VISUSTORE ORDER WTF???"><p>卧槽他给这个???</p><p>顺便晒下之前更换镜子<a href="%E4%BB%80">抢</a>的镜布.</p><img data-src="/2024/zeiss-log/gc1.jpg" class="" title="Glasses cloth 1"><img data-src="/2024/zeiss-log/gc2.jpg" class="" title="Glasses cloth 2"><h2 id="重生后"><a href="#重生后" class="headerlink" title="重生后"></a>重生后</h2><p>现在带着无干涩感.</p><p>目前的感受: </p><p>这副镜子的柱镜不会影响我的<code>Arcaea</code>游玩体验.</p><p>夜间视力恢复到两年前的水平.</p><p>已满足.</p><hr><p>UPDATE 2024-10-20</p><hr>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本人非眼镜类从业者, 仅为平日爱好.&lt;br&gt;此文章仅作生活日志发布.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Logs" scheme="https://wxac4f.github.io/categories/Logs/"/>
+    
+    
+    <category term="Glasses" scheme="https://wxac4f.github.io/tags/Glasses/"/>
+    
+    <category term="ZEISS" scheme="https://wxac4f.github.io/tags/ZEISS/"/>
+    
+    <category term="i.Scription" scheme="https://wxac4f.github.io/tags/i-Scription/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>氢锗碱作品集-文02</title>
+    <link href="https://wxac4f.github.io/2023/collection-of-hgj-article-02/"/>
+    <id>https://wxac4f.github.io/2023/collection-of-hgj-article-02/</id>
+    <published>2023-10-28T05:47:25.000Z</published>
+    <updated>2024-10-14T18:28:41.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>征文标题：<code>走到背后</code><br>原标题：<code>长夜</code></p><h1 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h1><p>在两个班印了几十份，同时也是这两个班被学校推上去参加比赛的唯一一篇作文。</p><h1 id="自序"><a href="#自序" class="headerlink" title="自序"></a>自序</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">创作于三个长夜。</span><br><span class="line">主体部分是9月23号，一个既发烧又胸口痛的夜晚在笔记本写的，回忆16号看到的景色(即《随笔五则》)；</span><br><span class="line">抒情是10月1号凌晨敲的，并把第9段的“锈迹斑驳”改了；其他段落写在10月2号凌晨。</span><br><span class="line">很有意思的是，我和兴隆大街那位都在建邺区，</span><br><span class="line">9月16号那天大抵仰望过同一片天空，可惜我对他的感受无从得知。</span><br><span class="line">总而言之，我的初心是写篇关于天空与生命的文章给他看看，</span><br><span class="line">虽然后来读者很多，但他已经不可能看到了，毕竟已经无法改变了也过去了。</span><br></pre></td></tr></table></figure><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>那的确是一个温暖的傍晚，刚刚入秋，阵风轻快地掠过脸颊，湿气渐渐脱离地面，<br>一切平凡的建筑都映照在晚霞中。</p><p>每周一次的放学路上，我在一座很小很小的公交站转车，<br>它没有历史，但一直伫立在十字路口，一直在那里。<br>我从没走出站台，却被隐藏在它背后的事物时刻吸引。</p><p>我想，我应当去看看。</p><p>沿十字路口直行，穿过熙熙攘攘的花路；<br>左转，民国时期栽下的梧桐树伫立在立交桥与天空之间；<br>右转，可以发现成群的废楼，砖瓦已经朽坏，小卖部和网吧的招牌则光亮如新，<br>像一开始就没存在过的事物，却又真实得不容忘却。</p><p>顺着倾斜的马路继续往下走，是一段废弃铁路，<br>我开始喜欢上了这平凡而神秘的气息溢满的闹市一隅。</p><p>铁路四周矗满黑灰的瓦房、生锈的旧农机与湿润的废弃铁路躺卧在地，<br>两旁的拉拉藤尖刺虬结，叶尖指向天空，像一只只张开的手，狂妄生长着。<br>这些破败的东西与不远处流动的车灯霓虹灯交织在一起，竟构造出山水画一般开阔的纵深。</p><p>最后的阳光从地平线上斜射而下，泥土金灰，树叶在头顶微微晃动，<br>杂草堆里出现了一株亲切的植物，她令我惊喜。<br>她的叶片是心脏的形状，绿色的，摸起来光滑而柔软；<br>红色的脉络像叶片中奔腾的动脉与静脉，连根茎也如同古代少女手中那根彤管；<br>她表里如一，是颗不绝鼓动的心脏，<br>无论多少次切割它的躯体，许多赤红的枝条都会从白色伤口旁长出，<br>更高、更远、更喜悦，毫无保留地拥抱着天空，筋络与大地的骨肉相连。</p><p>小时候，常在玩耍时看见这种植物，我只觉得它们是野草；<br>再后来，已是初二，她在我晚间学习的地方附近，人迹罕至的过道里，偷偷生长着。<br>我竟怀抱着一个荒谬的妄想，她发芽的全部意义就是陪伴我，<br>我也仅仅是为了抚摸这株植物的一瞬间而诞生。<br>生命是不朽的，我不知晓它的开端，也不知其终结，但我可以感受自己的青春。</p><p>(为了过审以及含蓄，此处删去了一段《长夜》中极为激烈的议论抒情)</p><p>傍晚时分，如果从五楼俯瞰教室的话，会看到怎样景象？<br>奋力拼搏的少年们，为了淘汰素不相识的同伴而慷慨悲歌。<br>可是，如果把目光放得更远呢？<br>转过身，抬起头，向西眺望。<br>在围墙对面，天空的尽头是青色，既开阔又美丽，让任何人都浮想联翩。</p><p>但我此刻站在铁路旁，在这里，视野甚至广阔得多，一抬头就能领略浸透着青蓝的天空。<br>逆着刺眼的斜阳向下看，又是一层层蔚蓝、海蓝、橙黄、赤红，<br>最后以铁锈色与地面相逢，紧黏在一起。<br>不知不觉间，日落西山，万家灯火从这片锈迹与血迹中铺展开来，温柔地映入眼帘。</p><p>我由衷赞叹那些生活背后的美好，<br>看看历史的厚重、生命的美丽、世界的灿烂。<br>这就是青春的本质，这也是我们呼吸的意义。</p><span id="more"></span><hr><h1 id="来自时间裂缝的信号"><a href="#来自时间裂缝的信号" class="headerlink" title="来自时间裂缝的信号"></a>来自时间裂缝的信号</h1><video src="hgj_with_cat.mp4" preload="metadata" controlslist="nodownload" controls playsinline poster=""></video><p>HGJ with cat.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;征文标题：&lt;code&gt;走到背后&lt;/code&gt;&lt;br&gt;原标题：&lt;code&gt;长夜&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;在两个班印了几十份，同时也是这两个班被学校推上去参加比赛的唯一一篇作文。&lt;/p&gt;
+&lt;h1 id=&quot;自序&quot;&gt;&lt;a href=&quot;#自序&quot; class=&quot;headerlink&quot; title=&quot;自序&quot;&gt;&lt;/a&gt;自序&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;创作于三个长夜。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;主体部分是9月23号，一个既发烧又胸口痛的夜晚在笔记本写的，回忆16号看到的景色(即《随笔五则》)；&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;抒情是10月1号凌晨敲的，并把第9段的“锈迹斑驳”改了；其他段落写在10月2号凌晨。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;很有意思的是，我和兴隆大街那位都在建邺区，&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9月16号那天大抵仰望过同一片天空，可惜我对他的感受无从得知。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;总而言之，我的初心是写篇关于天空与生命的文章给他看看，&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;虽然后来读者很多，但他已经不可能看到了，毕竟已经无法改变了也过去了。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;p&gt;那的确是一个温暖的傍晚，刚刚入秋，阵风轻快地掠过脸颊，湿气渐渐脱离地面，&lt;br&gt;一切平凡的建筑都映照在晚霞中。&lt;/p&gt;
+&lt;p&gt;每周一次的放学路上，我在一座很小很小的公交站转车，&lt;br&gt;它没有历史，但一直伫立在十字路口，一直在那里。&lt;br&gt;我从没走出站台，却被隐藏在它背后的事物时刻吸引。&lt;/p&gt;
+&lt;p&gt;我想，我应当去看看。&lt;/p&gt;
+&lt;p&gt;沿十字路口直行，穿过熙熙攘攘的花路；&lt;br&gt;左转，民国时期栽下的梧桐树伫立在立交桥与天空之间；&lt;br&gt;右转，可以发现成群的废楼，砖瓦已经朽坏，小卖部和网吧的招牌则光亮如新，&lt;br&gt;像一开始就没存在过的事物，却又真实得不容忘却。&lt;/p&gt;
+&lt;p&gt;顺着倾斜的马路继续往下走，是一段废弃铁路，&lt;br&gt;我开始喜欢上了这平凡而神秘的气息溢满的闹市一隅。&lt;/p&gt;
+&lt;p&gt;铁路四周矗满黑灰的瓦房、生锈的旧农机与湿润的废弃铁路躺卧在地，&lt;br&gt;两旁的拉拉藤尖刺虬结，叶尖指向天空，像一只只张开的手，狂妄生长着。&lt;br&gt;这些破败的东西与不远处流动的车灯霓虹灯交织在一起，竟构造出山水画一般开阔的纵深。&lt;/p&gt;
+&lt;p&gt;最后的阳光从地平线上斜射而下，泥土金灰，树叶在头顶微微晃动，&lt;br&gt;杂草堆里出现了一株亲切的植物，她令我惊喜。&lt;br&gt;她的叶片是心脏的形状，绿色的，摸起来光滑而柔软；&lt;br&gt;红色的脉络像叶片中奔腾的动脉与静脉，连根茎也如同古代少女手中那根彤管；&lt;br&gt;她表里如一，是颗不绝鼓动的心脏，&lt;br&gt;无论多少次切割它的躯体，许多赤红的枝条都会从白色伤口旁长出，&lt;br&gt;更高、更远、更喜悦，毫无保留地拥抱着天空，筋络与大地的骨肉相连。&lt;/p&gt;
+&lt;p&gt;小时候，常在玩耍时看见这种植物，我只觉得它们是野草；&lt;br&gt;再后来，已是初二，她在我晚间学习的地方附近，人迹罕至的过道里，偷偷生长着。&lt;br&gt;我竟怀抱着一个荒谬的妄想，她发芽的全部意义就是陪伴我，&lt;br&gt;我也仅仅是为了抚摸这株植物的一瞬间而诞生。&lt;br&gt;生命是不朽的，我不知晓它的开端，也不知其终结，但我可以感受自己的青春。&lt;/p&gt;
+&lt;p&gt;(为了过审以及含蓄，此处删去了一段《长夜》中极为激烈的议论抒情)&lt;/p&gt;
+&lt;p&gt;傍晚时分，如果从五楼俯瞰教室的话，会看到怎样景象？&lt;br&gt;奋力拼搏的少年们，为了淘汰素不相识的同伴而慷慨悲歌。&lt;br&gt;可是，如果把目光放得更远呢？&lt;br&gt;转过身，抬起头，向西眺望。&lt;br&gt;在围墙对面，天空的尽头是青色，既开阔又美丽，让任何人都浮想联翩。&lt;/p&gt;
+&lt;p&gt;但我此刻站在铁路旁，在这里，视野甚至广阔得多，一抬头就能领略浸透着青蓝的天空。&lt;br&gt;逆着刺眼的斜阳向下看，又是一层层蔚蓝、海蓝、橙黄、赤红，&lt;br&gt;最后以铁锈色与地面相逢，紧黏在一起。&lt;br&gt;不知不觉间，日落西山，万家灯火从这片锈迹与血迹中铺展开来，温柔地映入眼帘。&lt;/p&gt;
+&lt;p&gt;我由衷赞叹那些生活背后的美好，&lt;br&gt;看看历史的厚重、生命的美丽、世界的灿烂。&lt;br&gt;这就是青春的本质，这也是我们呼吸的意义。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Literature/"/>
+    
+    <category term="Original" scheme="https://wxac4f.github.io/categories/Literature/Original/"/>
+    
+    
+    <category term="HGJ" scheme="https://wxac4f.github.io/tags/HGJ/"/>
+    
+    <category term="Midnight" scheme="https://wxac4f.github.io/tags/Midnight/"/>
+    
+    <category term="1st OF 2023" scheme="https://wxac4f.github.io/tags/1st-OF-2023/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>氢锗碱作品集-文01</title>
+    <link href="https://wxac4f.github.io/2023/collection-of-hgj-article-01/"/>
+    <id>https://wxac4f.github.io/2023/collection-of-hgj-article-01/</id>
+    <published>2023-07-26T03:58:32.000Z</published>
+    <updated>2024-09-02T15:43:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title="&lt;&lt;杀不死的水手之花&gt;&gt;"></a>&lt;&lt;杀不死的水手之花&gt;&gt;</h1><p>忘不了嘚 疫情再不会肆虐<br>中国人的内心深处记着大复兴</p><p>灾难悠长 年月里转化为力<br>一个民族 一个国家 永远在前进</p><p>沿着那伟大正确的道路 永远不害怕<br>欧洲北约 统统抛开 不必去看他</p><p>天翻地覆 贫国弱民 再不复前朝<br>新的世纪 新的时代 已滚滚而来</p><p>人人都有梦 在心中 践于行<br>无论风怎么刮 希望一定会变大</p><p>人人都有梦 在心中 践于行<br>那个梦 很宏大 记着吧</p><p>—— 强横有力的伴奏 ——</p><p>忘不了嘚 留下了百年意志<br>至死不渝 一定会完成伟大复兴</p><p>坚强意志 来自每个人的全力<br>加一把劲 历史车轮不断地前进</p><p>沿着那伟大正确的道路 永远不害怕<br>天翻地覆 贫国弱民 再不复前朝</p><p>新的世纪 新的时代 已滚滚而来<br>人人都有梦 在心中 来学习</p><p>无论风怎么刮 希望一定会变大<br>人人都有梦 在心中 来学习</p><p>那个梦 很宏大 记着吧</p><p>—— 抒发感情的伴奏 ——</p><p>我们都有梦 在心中 践于行<br>这个梦 很伟大 记着吧</p><p>无论风怎么刮 希望一定会变大<br>我们都有梦 在心中 记着吧</p><p>无论风怎么刮 希望一定会变大<br>我们都有梦 在心中 记着吧</p><p>无论风怎么刮 希望一定会变大</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&amp;lt;&amp;lt;杀不死的水手之花&amp;gt;&amp;gt;&quot;&gt;&lt;/a&gt;&amp;lt;&amp;lt;杀不死的水手之花&amp;gt;&amp;gt;&lt;/h1&gt;&lt;p&gt;忘不了嘚 疫情再不会肆虐&lt;br&gt;中国人的内心深处记着大复兴&lt;/p&gt;
+&lt;p&gt;灾难悠长 年月里转化为力&lt;br&gt;一个民族 一个国家 永远在前进&lt;/p&gt;
+&lt;p&gt;沿着那伟大正确的道路 永远不</summary>
+      
+    
+    
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Literature/"/>
+    
+    <category term="Original" scheme="https://wxac4f.github.io/categories/Literature/Original/"/>
+    
+    
+    <category term="Lyrics" scheme="https://wxac4f.github.io/tags/Lyrics/"/>
+    
+    <category term="Sailor" scheme="https://wxac4f.github.io/tags/Sailor/"/>
+    
+    <category term="HGJ" scheme="https://wxac4f.github.io/tags/HGJ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>An1ao作品集-诗08</title>
+    <link href="https://wxac4f.github.io/2023/collection-of-an1ao-poem-08/"/>
+    <id>https://wxac4f.github.io/2023/collection-of-an1ao-poem-08/</id>
+    <published>2023-03-25T07:45:00.000Z</published>
+    <updated>2024-09-02T15:42:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我与我们的故事"><a href="#我与我们的故事" class="headerlink" title="我与我们的故事"></a>我与我们的故事</h2><p>当我提起笔时，你醒了。<br>看到晨曦透入细雨间，折射出朦胧的虹光。<br>于是我回头，在记忆深处跌倒，<br>没有束缚，比鸟儿还自由，比风儿还轻巧。</p><p>苍穹湛蓝如初，白云像磨损的痕迹，出现又消失。<br>熟悉的街道空无一人，破碎的心灵落满灰尘。</p><p>留声机缓缓讲述逝去的故事，<br>“时间停滞的夏日傍晚，<br>少女手捧鲜花，矗立荒原之间。<br>“我喜欢花，也喜欢你。”<br>她永远这样说到。”</p><p>书页在风暴中尽数散落，不见踪影，<br>你消失了——取而代之的是另外的你。</p><p>我将你也藏入记忆，熄灭魂灵，<br>寒冷黑暗夜里，点起火把，追上远天三颗明星。</p><p>欢声笑语替代哭泣，<br>我们的故事从此交织在一起。</p><p>无论理解与否，也许终将分离，<br>难以言表的感情深埋心底，没有触碰的勇气，<br>直至引力都彻底消失，</p><p>——但至少辽阔的宇宙中，<br>依旧有人爱着你。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;我与我们的故事&quot;&gt;&lt;a href=&quot;#我与我们的故事&quot; class=&quot;headerlink&quot; title=&quot;我与我们的故事&quot;&gt;&lt;/a&gt;我与我们的故事&lt;/h2&gt;&lt;p&gt;当我提起笔时，你醒了。&lt;br&gt;看到晨曦透入细雨间，折射出朦胧的虹光。&lt;br&gt;于是我回头，在记忆深处跌倒，&lt;br&gt;没有束缚，比鸟儿还自由，比风儿还轻巧。&lt;/p&gt;
+&lt;p&gt;苍穹湛蓝如初，白云像磨损的痕迹，出现又消失。&lt;br&gt;熟</summary>
+      
+    
+    
+    
+    <category term="Literature" scheme="https://wxac4f.github.io/categories/Literature/"/>
+    
+    <category term="Artificial" scheme="https://wxac4f.github.io/categories/Literature/Artificial/"/>
+    
+    
+    <category term="An1ao" scheme="https://wxac4f.github.io/tags/An1ao/"/>
+    
+    <category term="Poems" scheme="https://wxac4f.github.io/tags/Poems/"/>
+    
+    <category term="3rd OF 2023" scheme="https://wxac4f.github.io/tags/3rd-OF-2023/"/>
+    
+  </entry>
+  
+</feed>
